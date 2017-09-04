@@ -83,7 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 source ~/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -95,17 +94,19 @@ antigen bundle heroku
 antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
-#
+antigen bundle zsh-users/zsh-autosuggestions
+
 # # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
-#
+
 # # Load the theme.
-antigen theme robbyrussell
-#
+antigen theme alien-minimal
+
 # # Tell Antigen that you're done.
 antigen apply
 
+
 export PROMPT_START_TAG='-> '
-export PROMPT_END_TAG=' $'
-export PROMPT_START_TAG_COLO='200'
+export PROMPT_END_TAG=' <- $'
+export PROMPT_START_TAG_COLOR='200'
 export PROMPT_END_TAG_COLOR='200'
