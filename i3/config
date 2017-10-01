@@ -21,7 +21,8 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 #new_window pixel
 
 #get the mouse out of the way with unclutter
-exec unclutter 
+exec unclutter
+exec wal -i ~/Pictures/serveimage.png
 
 exec_always --no-startup-id /home/rabougue/.config/polybar/lauch.sh
 exec --no-startup-id feh --bg-scale ~/Pictures/serveimage.png
@@ -278,15 +279,9 @@ bindsym button9 move left
 bindsym button8 move right
 
 
-## Assign section
-assign [class="Firefox"]          → 1
-assign [class="sublime-text"]     → 2
-assign [class="sublime_text"]     → 2
-assign [class="Sublime_text"]     → 2
-assign [class="Thunar"]           → 8
-assign [class="Nemo"]             → 8
-assign [class="Geary"]            → 9
-assign [class="Spotify"]          → 10
+# Assign section
+assign [class="wire-desktop"]      → 9
+assign [class="discord"]           → 9
 
 for_window [class="Firefox"] focus
 
