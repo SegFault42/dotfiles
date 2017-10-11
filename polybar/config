@@ -17,6 +17,7 @@ blue = #4f97d7
 purple = #875faf
 green = #20ad80
 red = #ee3333
+yellow = #ffff00
 
 ;-------------------------------------------------------------------------------
 ;	B A R S
@@ -34,7 +35,7 @@ foreground = ${colors.foreground}
 ; line-size = 3
 ; line-color = #fff
 
-border-size = 2
+border-size = 0
 border-color = #295398
 
 ; border-bottom-size = 2
@@ -48,6 +49,7 @@ border-color = #295398
 
 font-0 = Hack:pixelsize=10:weight=bold;2
 font-1 = Hack:pixelsize=32;2
+font-2 = FontAwesome:fontformat=truetype:size=10;1
 
 modules-left = i3 arrow0 i3index arrow
 modules-center = music battery_check
@@ -150,7 +152,7 @@ content-background = ${colors.trans}
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix = " KEY "
+format-prefix = "  "
 format-prefix-font = 1
 format-prefix-foreground = ${colors.blue}
 format-prefix-background = ${colors.background}
@@ -222,7 +224,7 @@ label-urgent-background = ${colors.background}
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " CPU "
+format-prefix = "  "
 format-prefix-foreground = ${colors.blue}
 format-prefix-background = ${colors.background}
 label = %percentage%%
@@ -232,7 +234,7 @@ label-background = ${colors.background}
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " RAM "
+format-prefix = "  "
 format-prefix-foreground = ${colors.blue}
 format-prefix-background = ${colors.grey}
 label = %percentage_used%%
@@ -299,9 +301,9 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = " %Y-%m-%d"
+date = "  %Y-%m-%d"
 
-time= %H:%M:%S
+time=  %H:%M:%S
 
 label = %date% %time%
 label-foreground = ${colors.blue}
@@ -320,16 +322,16 @@ label-muted = " MUTED "
 label-muted-foreground = ${colors.blue}
 label-muted-background = ${colors.background}
 
-ramp-volume-0 = " VOL "
+ramp-volume-0 = "  "
 ramp-volume-0-foreground = ${colors.blue}
 ramp-volume-0-background = ${colors.background}
-ramp-volume-1 = " VOL "
+ramp-volume-1 = "  "
 ramp-volume-1-foreground = ${colors.blue}
 ramp-volume-1-background = ${colors.background}
-ramp-volume-2 = " VOL "
+ramp-volume-2 = "  "
 ramp-volume-2-foreground = ${colors.blue}
 ramp-volume-2-background = ${colors.background}
-ramp-volume-3 = " VOL "
+ramp-volume-3 = "  "
 ramp-volume-3-foreground = ${colors.blue}
 ramp-volume-3-background = ${colors.background}
 
@@ -337,41 +339,35 @@ ramp-volume-3-background = ${colors.background}
 type = internal/battery
 battery = BAT0
 adapter = AC
-full-at = 98
+full-at = 100
 
 format-charging = <animation-charging> <label-charging>
-format-charging-foreground = ${colors.green}
+format-charging-padding = 1
 format-charging-background = ${colors.grey}
+format-charging-underline = ${colors.green}
+
 format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-foreground = ${colors.green}
+format-discharging-padding = 1
 format-discharging-background = ${colors.grey}
-format-full = <label-full>
-format-full-foreground = ${colors.green}
+format-discharging-underline = ${colors.yellow}
+
+format-full-prefix = " "
+format-full-padding = 1
 format-full-background = ${colors.grey}
+format-full-underline = ${colors.yellow}
 
-label-charging = "CHR %percentage%%"
-label-discharging = "BAT %percentage%%"
-label-discharging-foreground = ${colors.green}
-label-full = "BAT %percentage%%"
-
-ramp-capacity-0 =
-ramp-capacity-0-foreground = ${colors.red}
-ramp-capacity-1 =
-ramp-capacity-1-foreground = ${colors.red}
-ramp-capacity-2 =
-ramp-capacity-3 =
-ramp-capacity-4 =
-animation-charging-0 =
-animation-charging-1 =
-animation-charging-2 =
-animation-charging-3 =
-animation-charging-4 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
 animation-charging-framerate = 750
 
-[module/battery_check]
-type = custom/script
-exec = ~/.config/polybar/battery_check.sh
-interval = 60
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 
 [module/temperature]
 type = internal/temperature

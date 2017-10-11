@@ -2,42 +2,23 @@
 ### http://i3wm.org/
 ## Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-
 ###########################################################################
 ###################  Start Personal Startup Settings   ####################
 ###########################################################################
 
-#Screen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
-
-# SETUP INTENDED TO WORK WITH LINUX MINT -- PORTED FROM ARCHLINUX  - there maybe residual code from there#
-
-#Dual screen setting
-#exec $HOME/.i3/scripts/dualscreen_autoset.sh
-
-#if you want transparency on non-focused windows - but i prefer to see all windows clearly on a dual-monitor
-#exec_always compton --config ~/.i3/compton.conf
-#new_window pixel
-
 #get the mouse out of the way with unclutter
 exec unclutter
-exec wal -i ~/Pictures/serveimage.png
 
-exec_always --no-startup-id /home/rabougue/.config/polybar/lauch.sh
-exec --no-startup-id feh --bg-scale ~/Pictures/serveimage.png
+exec_always --no-startup-id /home/segfault42/.config/polybar/lauch.sh
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper.png
+exec_always compton --config ~/.config/i3/compton.conf
 
 ###########################################################################
 ###################  I 3  G A P S  N E X T   ##############################
 ###########################################################################
-# Settings for I3 next gap git
-# https://github.com/Airblader/i3/tree/gaps-next
-# Archlinux via make & make install installation
-# http://dotx.me/snippets-i3-gaps/
-# delete or uncomment the following lines if you do not have it or do not
-# want it
 
-for_window [class="^.*"] border pixel 5
+
+for_window [class="^.*"] border pixel 2
 gaps inner 15
 gaps outer 0
 #smart_gaps on
@@ -59,161 +40,136 @@ gaps outer 0
 # This is windows key
 set $mod Mod4
 
-
-#font pango:UbuntuMono 12
-# standard linux mint font
-
-
 font pango:Monaco 18px
-
-
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-bindsym $mod+control+l exec ~/.i3/scripts/lock.sh
-#bindsym $mod+control+l exec i3lock --fuzzy
+bindsym $mod+control+l exec ~/.config/i3/scripts/lock.sh
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 bindsym $mod+d exec rofi\
-					-show run\
-					-bg "#1e1e1e"\
-					-fg "#4da1ff"\
-					-hlbg "#515151"\
-					-hlfg "#eeeeee"\
-					-bw 2\
-					-eh 1\
-					-font "Monaco 15"\
-					-opacity "80"\
-					-lines 8\
-					-line-margin 1
-
-# start dmenu (a program launcher)
-#bindsym $mod+d exec dmenu_run -i  -p 'Linux Mint All Programs' -fn 'Monaco:bold:pixelsize=16' -nb '#1c1a22' -nf '#ffffff' -sf '#ffffff' -sb '#285577'
-#bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu  -p  'Linux Mint Desktop' -fn 'Monaco:bold:pixelsize=16' -nb '#1c1a22' -nf '#ffffff' -sf '#ffffff' -sb '#285577'"
-# lines vertical
-#bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu -l 6 -p  'Linux Mint Desktop' -fn 'Monaco:bold:pixelsize=16' -nb '#494949' -nf '#a9a9a9' -sf '#dbdbdb' -sb '#222222'"
-#bindsym $mod+shift+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -fn 'Inconsolata:bold:pixelsize=20S'"
-#bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu -fn 'monospace:bold:pixelsize=15'"
-
-
+			-show run\
+			-bg "#1e1e1e"\
+			-fg "#4da1ff"\
+			-hlbg "#515151"\
+			-hlfg "#eeeeee"\
+			-bw 2\
+			-eh 1\
+			-font "Monaco 15"\
+			-opacity "80"\
+			-lines 8\
+			-line-margin 1
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+m focus right
+			bindsym $mod+j focus left
+			bindsym $mod+k focus down
+			bindsym $mod+l focus up
+			bindsym $mod+m focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+			bindsym $mod+Left focus left
+			bindsym $mod+Down focus down
+			bindsym $mod+Up focus up
+			bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+m move right
+			bindsym $mod+Shift+j move left
+			bindsym $mod+Shift+k move down
+			bindsym $mod+Shift+l move up
+			bindsym $mod+Shift+m move right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+			bindsym $mod+Shift+Left move left
+			bindsym $mod+Shift+Down move down
+			bindsym $mod+Shift+Up move up
+			bindsym $mod+Shift+Right move right
 
-default_orientation horizontal
+			default_orientation horizontal
 
 # split in horizontal orientation
-bindsym $mod+h split h
+			bindsym $mod+h split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+			bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+			bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+z layout tabbed
-bindsym $mod+e layout toggle split
+			bindsym $mod+s layout stacking
+			bindsym $mod+z layout tabbed
+			bindsym $mod+e layout toggle split
 
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+			bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+q focus parent
+			bindsym $mod+q focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
 
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+			bindsym $mod+Shift+1 move container to workspace 1
+			bindsym $mod+Shift+2 move container to workspace 2
+			bindsym $mod+Shift+3 move container to workspace 3
+			bindsym $mod+Shift+4 move container to workspace 4
+			bindsym $mod+Shift+5 move container to workspace 5
+			bindsym $mod+Shift+6 move container to workspace 6
+			bindsym $mod+Shift+7 move container to workspace 7
+			bindsym $mod+Shift+8 move container to workspace 8
+			bindsym $mod+Shift+9 move container to workspace 9
+			bindsym $mod+Shift+0 move container to workspace 10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+			bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+			bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -b 'Yes, exit i3' 'i3-msg exit'"
-
+			bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-bindsym $mod+r mode "resize"
+			bindsym $mod+r mode "resize"
 
-mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+			mode "resize" {
+# These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 1 px or 1 ppt
-        bindsym k resize grow height 1 px or 1 ppt
-        bindsym l resize shrink height 1 px or 1 ppt
-        bindsym m resize grow width 1 px or 1 ppt
+# Pressing left will shrink the window’s width.
+# Pressing right will grow the window’s width.
+# Pressing up will shrink the window’s height.
+# Pressing down will grow the window’s height.
+				bindsym j resize shrink width 1 px or 1 ppt
+					bindsym k resize grow height 1 px or 1 ppt
+					bindsym l resize shrink height 1 px or 1 ppt
+					bindsym m resize grow width 1 px or 1 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 1 px or 1 ppt
-        bindsym Down resize grow height 1 px or 1 ppt
-        bindsym Up resize shrink height 1 px or 1 ppt
-        bindsym Right resize grow width 1 px or 1 ppt
+# same bindings, but for the arrow keys
+					bindsym Left resize shrink width 1 px or 1 ppt
+					bindsym Down resize grow height 1 px or 1 ppt
+					bindsym Up resize shrink height 1 px or 1 ppt
+					bindsym Right resize grow width 1 px or 1 ppt
 
-        # back to normal: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-
-
-
-
+# back to normal: Enter or Escape
+					bindsym Return mode "default"
+					bindsym Escape mode "default"
+			}
 
 ###########################################################################
 ###########################################################################
 ###################  Personal Settings   ##################################
 ###########################################################################
 ###########################################################################
-
-
 
 # switch to workspace
 bindsym $mod+1 workspace 1
@@ -227,8 +183,6 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
-
-
 #if dualscreen is on
 
 # setting variables for later use
@@ -236,7 +190,6 @@ bindsym $mod+0 workspace 10
 # use this line to tell which monitor is on the right
 # xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
 # there is a script at the beginning that covers the dual monitors
-
 
 #set $firstMonitor DVI-I-2
 #set $secondMonitor VGA-0
@@ -261,14 +214,6 @@ workspace 7 output $secondMonitor
 workspace 8 output $secondMonitor
 workspace 9 output $secondMonitor
 workspace 10 output $secondMonitor
-
-
-#mouse settings
-# The middle button over a titlebar kills the window
-#bindsym --release button2 kill
-
-# The middle button and a modifer over any part of the window kills the window
-#bindsym --whole-window $mod+button2 kill
 
 # The right button toggles floating
 bindsym button3 floating toggle
@@ -321,8 +266,7 @@ for_window [class="Unetbootin.elf"] floating enable
 for_window [class="Galculator"] floating enable
 for_window [class="Usb-creator-gtk"] floating enable
 for_window [class="MintUpdate.py"] floating enable
-
-
+for_window [class="Etcher.AppImage"] floating enable
 
 for_window [class="Hexchat"] floating disable
 
@@ -338,8 +282,7 @@ exec cinnamon-sound-applet
 #workspace related applications (use --no-startup-id if needed)
 
 exec firefox
-exec geary
-exec terminator
+exec gnome-terminal
 exec discord
 
 # copy paste this in terminal
@@ -358,38 +301,27 @@ popup_during_fullscreen smart
 #bindsym $mod+Shift+Return exec thunar
 bindsym $mod+Shift+Return exec nemo --no-desktop
 
-
-
 #F1-F12
 #mod1 = ALT
 bindsym control+mod1+f exec firefox
-bindsym control+mod1+g exec geary
-bindsym control+mod1+t exec subl
-bindsym control+mod1+c exec catfish
-bindsym control+mod1+m exec gnome-system-monitor
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id ~/.i3/scripts/i3exit.sh lock, mode "default"
-    bindsym e exec --no-startup-id ~/.i3/scripts/i3exit.sh logout, mode "default"
-    bindsym s exec --no-startup-id ~/.i3/scripts/i3exit.sh suspend, mode "default"
-    bindsym h exec --no-startup-id ~/.i3/scripts/i3exit.sh hibernate, mode "default"
-    bindsym r exec --no-startup-id ~/.i3/scripts/i3exit.sh reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id ~/.i3/scripts/i3exit.sh shutdown, mode "default"
+	bindsym l exec --no-startup-id ~/.i3/scripts/i3exit.sh lock, mode "default"
+		bindsym e exec --no-startup-id ~/.i3/scripts/i3exit.sh logout, mode "default"
+		bindsym s exec --no-startup-id ~/.i3/scripts/i3exit.sh suspend, mode "default"
+		bindsym h exec --no-startup-id ~/.i3/scripts/i3exit.sh hibernate, mode "default"
+		bindsym r exec --no-startup-id ~/.i3/scripts/i3exit.sh reboot, mode "default"
+		bindsym Shift+s exec --no-startup-id ~/.i3/scripts/i3exit.sh shutdown, mode "default"
 
-    # back to normal: Enter or Escape
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
+# back to normal: Enter or Escape
+		bindsym Return mode "default"
+		bindsym Escape mode "default"
 }
-bindsym $mod+Pause mode "$mode_system"
-
-
+bindsym $mod+Insert mode "$mode_system"
 
 # Screen Shots
 bindsym Print exec scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
-
-
-
 
 # next/previous workspace
 
@@ -397,10 +329,7 @@ bindsym Mod1+Tab workspace next
 bindsym Mod1+Shift+Tab workspace prev
 bindsym $mod+Tab workspace back_and_forth
 
-
-
-
-# audio - Spotify
+# audio
 
 bindsym XF86AudioRaiseVolume exec "amixer -D pulse sset Master '5%+'"
 bindsym XF86AudioLowerVolume exec "amixer -D pulse sset Master '5%-'"
@@ -410,11 +339,7 @@ bindsym XF86AudioNext exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer
 bindsym XF86AudioPrev exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 bindsym XF86AudioStop exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
 
-
-
-
-# bar toggle, hide or show 
-bindsym $mod+b bar mode toggle
+################################################################################
 
 # Border control
 hide_edge_borders both
@@ -425,22 +350,6 @@ bindsym $mod+t border normal
 bindsym $mod+y border 1pixel
 bindsym $mod+u border none
 
-
-#####COLORS#####
-
-#bar
-#{
-	#workspace_buttons yes
-	#status_command i3status --config ~/.i3/i3status 
-
-	#colors
-	#{
-		#background #1c1a22
-		##focused_workspace #3AAFE9 #3AAFE9 #ffffff
-		#active_workspace #3aafe9 #3AAfe9 #ffffff
-		#inactive_workspace #3aafe9 #3aafe9 #dedede
-		#urgent_workspace #3aafe9 #3aafe9 #ff0000
-	#}
-#}
-
-exec --no-startup-id nitrogen --restore
+#Screen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness

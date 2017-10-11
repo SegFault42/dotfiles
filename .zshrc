@@ -53,7 +53,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -100,7 +100,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # # Load the theme.
-antigen theme alien-minimal
+antigen theme eendroroy/alien-minimal alien-minimal
 
 # # Tell Antigen that you're done.
 antigen apply
@@ -110,10 +110,11 @@ export PROMPT_START_TAG='SegFault42 -> '
 export PROMPT_END_TAG=' <- $'
 export PROMPT_START_TAG_COLOR='201'
 export PROMPT_END_TAG_COLOR='201'
-source /home/rabougue/.Sublivim/sublivimrc.sh
+#source /home/rabougue/.Sublivim/sublivimrc.sh
 
 #wal -r 
 
 export PATH=/home/rabougue/bin:/home/rabougue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/rabougue/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/home/rabougue/.vimpkg/bin
 
 alias rm='mv -t /tmp ' 
+wal -i ~/Pictures/Wallpaper.png > /dev/null
