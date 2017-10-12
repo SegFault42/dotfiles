@@ -40,3 +40,4 @@ To install, place the files in the Home folder.
 ![clean](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/clean.png)
 ![neofetch](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/gtop_neofetch_mpsyt.png)
 ![firefox](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/firefox.png)
+![lockscreen](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/lock.png)
