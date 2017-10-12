@@ -9,14 +9,11 @@ background-alt = #333
 foreground = #b2b2b2
 foreground-alt = #ee3333
 
-;bar middle
-trans = #333
-white = #ccc
-;label grey (memory, battery, hour)
+trans = #DA292b2e
+white = #eee
 grey = #444444
 pink = #d75f87
-;logo
-blue = #ffffff
+blue = #4f97d7
 purple = #875faf
 green = #20ad80
 red = #ee3333
@@ -39,7 +36,7 @@ foreground = ${colors.foreground}
 ; line-color = #fff
 
 border-size = 0
-border-color = #eee
+border-color = #295398
 
 ; border-bottom-size = 2
 ; border-bottom-color = #131313
@@ -165,7 +162,10 @@ label-layout-font = 1
 label-layout-foreground = ${colors.blue}
 label-layout-background = ${colors.background}
 
-;------------------------------------------------------------------------------
+; label-indicator-padding = 2
+; label-indicator-margin = 1
+; label-indicator-background = ${colors.blue}
+; label-indicator-underline = ${colors.blue}
 
 [module/filesystem]
 type = internal/fs
@@ -176,8 +176,6 @@ mount-0 = /
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
-
-;------------------------------------------------------------------------------
 
 [module/i3index]
 type = internal/i3
@@ -190,18 +188,16 @@ label-focused-background = ${colors.blue}
 label-unfocused =
 label-urgent =
 
-;------------------------------------------------------------------------------
-
 [module/i3]
 type = internal/i3
 format = <label-state><label-mode>
 
 index-sort = true
-enable-click = true
+enable-click = false
 enable-scroll = false
 
-ws-icon-0 = 9;
-ws-icon-default = 
+ws-icon-0 = 0;*
+ws-icon-default = ○
 
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
@@ -211,8 +207,8 @@ label-mode-foreground = ${colors.red}
 label-mode-background = ${colors.background}
 
 ; focused = Active workspace on focused monitor
-label-focused = "  "
-label-focused-foreground = ${colors.green}
+label-focused = " ● "
+label-focused-foreground = ${colors.blue}
 label-focused-background = ${colors.background}
 
 ; unfocused = Inactive workspace on any monitor
@@ -221,12 +217,9 @@ label-unfocused-foreground = ${colors.foreground}
 label-unfocused-background = ${colors.background}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = "  "
+label-urgent = " ● "
 label-urgent-foreground = ${colors.red}
 label-urgent-background = ${colors.background}
-
-
-;------------------------------------------------------------------------------
 
 [module/cpu]
 type = internal/cpu
@@ -238,26 +231,20 @@ label = %percentage%%
 label-foreground = ${colors.blue}
 label-background = ${colors.background}
 
-;------------------------------------------------------------------------------
-
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "  "
+format-prefix = "  "
 format-prefix-foreground = ${colors.blue}
 format-prefix-background = ${colors.grey}
 label = %percentage_used%%
 label-foreground = ${colors.blue}
 label-background = ${colors.grey}
 
-;------------------------------------------------------------------------------
-
 [module/wlan]
 type = internal/network
 interface = 
 interval = 3.0
-
-;------------------------------------------------------------------------------
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -294,8 +281,6 @@ ramp-signal-3 = 
 ramp-signal-4 = 
 ramp-signal-foreground = ${colors.foreground-alt}
 
-;------------------------------------------------------------------------------
-
 [module/eth]
 type = internal/network
 interface = 
@@ -312,8 +297,6 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
-;------------------------------------------------------------------------------
-
 [module/date]
 type = internal/date
 interval = 5
@@ -326,8 +309,6 @@ label = %date% %time%
 label-foreground = ${colors.blue}
 label-background = ${colors.grey}
 
-;------------------------------------------------------------------------------
-
 [module/volume]
 type = internal/volume
 
@@ -337,8 +318,8 @@ format-volume = <ramp-volume><label-volume>
 label-volume = %percentage%%
 label-volume-foreground = ${colors.blue}
 label-volume-background = ${colors.background}
-label-muted = "  "
-label-muted-foreground = ${colors.red}
+label-muted = " MUTED "
+label-muted-foreground = ${colors.blue}
 label-muted-background = ${colors.background}
 
 ramp-volume-0 = "  "
@@ -353,8 +334,6 @@ ramp-volume-2-background = ${colors.background}
 ramp-volume-3 = "  "
 ramp-volume-3-foreground = ${colors.blue}
 ramp-volume-3-background = ${colors.background}
-
-;------------------------------------------------------------------------------
 
 [module/battery]
 type = internal/battery

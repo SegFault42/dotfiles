@@ -1,3 +1,5 @@
+#https://unix.stackexchange.com/questions/334083/i3-windows-manager-assigning-window-to-workspace
+
 #### Configuration file for i3 window manager (4.x) 
 ### http://i3wm.org/
 ## Please see http://i3wm.org/docs/userguide.html for a complete reference!
@@ -18,7 +20,7 @@ exec_always compton --config ~/.config/i3/compton.conf
 ###########################################################################
 
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 gaps inner 15
 gaps outer 0
 #smart_gaps on
@@ -49,7 +51,6 @@ bindsym $mod+control+l exec ~/.config/i3/scripts/lock.sh
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
-
 # start a terminal
 bindsym $mod+Return exec gnome-terminal
 
@@ -225,8 +226,8 @@ bindsym button8 move right
 
 
 # Assign section
-assign [class="wire-desktop"]      → 9
-assign [class="discord"]           → 9
+assign [class="Wire"] 9
+assign [class="discord"] 9
 
 for_window [class="Firefox"] focus
 

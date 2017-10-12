@@ -108,8 +108,8 @@ antigen apply
 
 export PROMPT_START_TAG='SegFault42 -> '
 export PROMPT_END_TAG=' <- $'
-export PROMPT_START_TAG_COLOR='201'
-export PROMPT_END_TAG_COLOR='201'
+export PROMPT_START_TAG_COLOR='172'
+export PROMPT_END_TAG_COLOR='172'
 #source /home/rabougue/.Sublivim/sublivimrc.sh
 
 #wal -r 
@@ -117,4 +117,5 @@ export PROMPT_END_TAG_COLOR='201'
 export PATH=/home/rabougue/bin:/home/rabougue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/rabougue/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/home/rabougue/.vimpkg/bin
 
 alias rm='mv -t /tmp ' 
-wal -i ~/Pictures/Wallpaper.png > /dev/null
+wal -i ~/Pictures/Wallpaper2.png > /dev/null
+neofetch --w3m ~/Pictures/Wallpaper2.png
