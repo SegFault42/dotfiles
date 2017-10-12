@@ -36,3 +36,6 @@ To install, place the files in the Home folder.
 - mpsyt
 
 ### This is how it looks like:
+
+![clean](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/clean.png)
+![neofetch](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/gtop_neofetch_mpsyt.png)
