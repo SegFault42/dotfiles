@@ -9,6 +9,8 @@ To install, place the files in the Home folder.
 
 - i3-gaps
 
+- scrot
+
 - rofi
 
 - Polybar
