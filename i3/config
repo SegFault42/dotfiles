@@ -59,11 +59,11 @@ bindsym $mod+Shift+q kill
 
 bindsym $mod+d exec rofi\
 			-show run\
-			-bg "#1e1e1e"\
-			-fg "#4da1ff"\
-			-hlbg "#515151"\
+			-bg "#332c2f"\
+			-fg "#b6ff4e5"\
+			-hlbg "#aaaaaa"\
 			-hlfg "#eeeeee"\
-			-bw 2\
+			-bw 4\
 			-eh 1\
 			-font "Monaco 15"\
 			-opacity "80"\
