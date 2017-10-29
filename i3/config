@@ -228,6 +228,7 @@ bindsym button8 move right
 # Assign section
 assign [class="Wire"] 9
 assign [class="discord"] 9
+assign [class="Slack"] 9
 
 for_window [class="Firefox"] focus
 
@@ -268,8 +269,13 @@ for_window [class="Galculator"] floating enable
 for_window [class="Usb-creator-gtk"] floating enable
 for_window [class="MintUpdate.py"] floating enable
 for_window [class="Etcher.AppImage"] floating enable
+for_window [class="Cinnamon-settings.py"] floating enable
+for_window [class="Blueberry.py"] floating enable
+
 
 for_window [class="Hexchat"] floating disable
+
+
 
 #start tray applications
 # this time over the path is f**up - check next clean install
@@ -285,6 +291,9 @@ exec cinnamon-sound-applet
 exec firefox
 exec gnome-terminal
 exec discord
+exec Wire
+exec wire
+exec wire-desktop
 
 # copy paste this in terminal
 # gsettings set org.nemo.desktop show-desktop-icons false
