@@ -1,5 +1,6 @@
 #https://unix.stackexchange.com/questions/334083/i3-windows-manager-assigning-window-to-workspace
 
+
 #### Configuration file for i3 window manager (4.x) 
 ### http://i3wm.org/
 ## Please see http://i3wm.org/docs/userguide.html for a complete reference!
@@ -271,6 +272,7 @@ for_window [class="MintUpdate.py"] floating enable
 for_window [class="Etcher.AppImage"] floating enable
 for_window [class="Cinnamon-settings.py"] floating enable
 for_window [class="Blueberry.py"] floating enable
+for_window [class="Keepassx"] floating enable
 
 
 for_window [class="Hexchat"] floating disable
