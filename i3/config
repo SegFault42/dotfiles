@@ -13,7 +13,7 @@
 exec unclutter
 
 exec_always --no-startup-id /home/segfault42/.config/polybar/lauch.sh
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper.png
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper1.png
 exec_always compton --config ~/.config/i3/compton.conf
 
 ###########################################################################
@@ -21,8 +21,8 @@ exec_always compton --config ~/.config/i3/compton.conf
 ###########################################################################
 
 
-for_window [class="^.*"] border pixel 0
-gaps inner 15
+for_window [class="^.*"] border pixel 2
+gaps inner 10
 gaps outer 0
 #smart_gaps on
 #smart_borders on
@@ -270,9 +270,12 @@ for_window [class="Galculator"] floating enable
 for_window [class="Usb-creator-gtk"] floating enable
 for_window [class="MintUpdate.py"] floating enable
 for_window [class="Etcher.AppImage"] floating enable
+for_window [class="etcher-electron"] floating enable
 for_window [class="Cinnamon-settings.py"] floating enable
 for_window [class="Blueberry.py"] floating enable
 for_window [class="Keepassx"] floating enable
+for_window [class="electrum"] floating enable
+for_window [class="Gdebi-gtk"] floating enable
 
 
 for_window [class="Hexchat"] floating disable
