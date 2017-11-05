@@ -89,21 +89,21 @@ source ~/antigen.zsh
 #antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle git
-antigen bundle heroku
-antigen bundle pip
-antigen bundle lein
-antigen bundle command-not-found
+#antigen bundle git
+#antigen bundle heroku
+#antigen bundle pip
+#antigen bundle lein
+#antigen bundle command-not-found
 antigen bundle zsh-users/zsh-autosuggestions
 
 # # Syntax highlighting bundle.
-antigen bundle zsh-users/zsh-syntax-highlighting
+#antigen bundle zsh-users/zsh-syntax-highlighting
 
 # # Load the theme.
-antigen theme eendroroy/alien-minimal alien-minimal
+#antigen theme eendroroy/alien-minimal alien-minimal
 
 # # Tell Antigen that you're done.
-antigen apply
+#antigen apply
 
 
 export PROMPT_START_TAG='SegFault42 -> '
@@ -116,6 +116,5 @@ export PROMPT_END_TAG_COLOR='172'
 export PATH=/home/rabougue/bin:/home/rabougue/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/rabougue/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/home/rabougue/.vimpkg/bin
 
 alias rm='mv -t /tmp ' 
-wal -i ~/Pictures/Wallpaper2.png > /dev/null
+wal -i ~/Pictures/Wallpaper1.png > /dev/null
 #neofetch --w3m ~/Pictures/Wallpaper1.png
-export PATH=$PATH:/usr/local/go/bin

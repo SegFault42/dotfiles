@@ -59,17 +59,17 @@ bindsym $mod+Return exec gnome-terminal
 bindsym $mod+Shift+q kill
 
 bindsym $mod+d exec rofi\
-			-show run\
-			-bg "#332c2f"\
-			-fg "#b6ff4e5"\
-			-hlbg "#aaaaaa"\
-			-hlfg "#eeeeee"\
-			-bw 4\
-			-eh 1\
-			-font "Monaco 15"\
-			-opacity "80"\
-			-lines 8\
-			-line-margin 1
+						-show run\
+						-bg "#332c2f"\
+						-fg "#b6ff4e5"\
+						-hlbg "#aaaaaa"\
+						-hlfg "#eeeeee"\
+						-bw 4\
+						-eh 1\
+						-font "Monaco 15"\
+						-opacity "80"\
+						-lines 8\
+						-line-margin 1
 
 # change focus
 			bindsym $mod+j focus left
