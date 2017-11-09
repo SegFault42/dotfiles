@@ -118,3 +118,4 @@ export PATH=/home/rabougue/bin:/home/rabougue/.local/bin:/usr/local/sbin:/usr/lo
 alias rm='mv -t /tmp ' 
 wal -i ~/Pictures/Wallpaper1.png > /dev/null
 #neofetch --w3m ~/Pictures/Wallpaper1.png
+source /home/segfault42/.Sublivim/sublivimrc.sh

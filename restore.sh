@@ -3,17 +3,23 @@
 cp ./.zshrc ~/
 cp ./.vimrc ~/
 
-rm -fr ~/.config/polybar
+/bin/rm -fr ~/.config/polybar
 cp -fr ./polybar ~/.config/
 
-rm -fr ~/.config/i3
+/bin/rm -fr ~/.config/i3
 cp -fr ./i3 ~/.config/
 
-rm -fr ~/.config/mps-youtube
+/bin/rm -fr ~/.config/mps-youtube
 cp -fr ./mps-youtube ~/.config/
 
-rm -fr ~/.config/dconf/
+/bin/rm -fr ~/.config/dconf/
 cp -fr ./dconf ~/.config/
 
-rm -fr ~/Pictures/*
+/bin/rm -fr ~/Pictures/*
 cp -fr ./Wallpapers/* ~/Pictures/
+
+/bin/rm -fr ~/.mpd
+cp -fr ./.mpd ~/
+
+/bin/rm -fr ~/.ncmpcpp
+cp -fr ./.ncmpcpp ~/

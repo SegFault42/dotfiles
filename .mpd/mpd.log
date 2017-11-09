@@ -97,3 +97,402 @@ Nov 05 06:59 : client: [3] opened from 127.0.0.1:45864
 Nov 05 06:59 : client: [3] closed
 Nov 05 07:02 : client: [4] opened from 127.0.0.1:45940
 Nov 05 07:02 : client: [4] closed
+Nov 08 21:35 : avahi: Failed to add service _mpd._tcp: Local name collision
+Nov 08 21:35 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+Nov 08 21:35 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 08 21:35 : client: [0] opened from 127.0.0.1:47944
+Nov 08 21:35 : client: [0] closed
+Nov 08 21:36 : avahi: Service 'Music Player' successfully established.
+Nov 08 21:36 : client: [0] opened from 127.0.0.1:47946
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+Nov 08 21:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+Nov 08 21:36 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+Nov 08 21:36 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+Nov 08 21:36 : client: [0] closed
+Nov 08 23:18 : avahi: Failed to add service _mpd._tcp: Local name collision
+Nov 08 23:18 : client: [0] opened from 127.0.0.1:50060
+Nov 08 23:19 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac"
+Nov 08 23:19 : output: Failed to open audio output
+Nov 08 23:19 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+Nov 08 23:19 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+Nov 08 23:19 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+Nov 08 23:20 : client: [0] closed
+Nov 08 23:21 : client: [1] opened from 127.0.0.1:50146
+Nov 08 23:21 : client: [1] closed
+Nov 08 23:58 : client: [2] opened from 127.0.0.1:50482
+Nov 08 23:58 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+Nov 08 23:58 : client: [2] closed
+Nov 09 00:00 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac"
+Nov 09 00:04 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+Nov 09 00:06 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac"
+Nov 09 00:08 : client: [3] opened from 127.0.0.1:50528
+Nov 09 00:08 : client: [3] closed
+Nov 09 00:08 : client: [4] opened from 127.0.0.1:50530
+Nov 09 00:10 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+Nov 09 00:15 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/03 - Master of Death.flac"
+Nov 09 00:18 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/04 - Tonight Ve Dance.flac"
+Nov 09 00:22 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/05 - I Invoke Cursed Winds.flac"
+Nov 09 00:24 : client: [4] closed
+Nov 09 00:25 : client: [5] opened from 127.0.0.1:50976
+Nov 09 00:27 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac"
+Nov 09 00:31 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac"
+Nov 09 00:36 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac"
+Nov 09 00:40 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+Nov 09 00:43 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac"
+Nov 09 00:47 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+Nov 09 00:52 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+Nov 09 00:54 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+Nov 09 00:54 : client: [5] closed
+Nov 09 00:57 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+Nov 09 00:58 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 09 00:58 : ffmpeg/mjpeg: Changeing bps to 8
+Nov 09 00:59 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+Nov 09 01:02 : client: [6] opened from 127.0.0.1:51510
+Nov 09 01:03 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 09 01:03 : ffmpeg/mjpeg: Changeing bps to 8
+Nov 09 01:03 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+Nov 09 01:07 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 09 01:07 : ffmpeg/mjpeg: Changeing bps to 8
+Nov 09 01:07 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+Nov 09 01:12 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 09 01:12 : ffmpeg/mjpeg: Changeing bps to 8
+Nov 09 01:12 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+Nov 09 01:14 : client: [6] closed
+Nov 09 01:15 : client: [7] opened from 127.0.0.1:51738
+Nov 09 01:15 : client: [7] closed
+Nov 09 01:15 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 09 01:15 : ffmpeg/mjpeg: Changeing bps to 8
+Nov 09 01:16 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+Nov 09 01:16 : client: [8] opened from 127.0.0.1:51748
+Nov 09 01:18 : client: [8] closed
+Nov 09 01:19 : client: [9] opened from 127.0.0.1:51754
+Nov 09 01:20 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 09 01:20 : ffmpeg/mjpeg: Changeing bps to 8
+Nov 09 01:21 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+Nov 09 01:21 : client: [9] closed
+Nov 09 01:22 : client: [10] opened from 127.0.0.1:51756
+Nov 09 01:23 : client: [10] closed
+Nov 09 01:24 : client: [11] opened from 127.0.0.1:51758
+Nov 09 01:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 09 01:26 : ffmpeg/mjpeg: Changeing bps to 8
+Nov 09 01:26 : client: [11] closed
+Nov 09 01:26 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+Nov 09 01:26 : client: [12] opened from 127.0.0.1:51766
+Nov 09 01:27 : client: [12] closed
+Nov 09 01:27 : client: [13] opened from 127.0.0.1:51776
+Nov 09 01:27 : client: [13] closed
+Nov 09 01:27 : client: [14] opened from 127.0.0.1:51778

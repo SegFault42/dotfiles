@@ -4,7 +4,7 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 " Variable configuration for Sublivim
-let sbv_theme='deep-space'
+let sbv_theme='molokai'
 " Open NERDTree with vim
 let sbv_open_nerdtree_to_start=1
 " Open Nerd Panel with a new tab
@@ -193,4 +193,3 @@ function! s:CloseIfOnlyNerdTreeLeft()
 	endif
 endfunction
 
-hi Normal guibg=NONE ctermbg=NONE
