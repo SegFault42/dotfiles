@@ -1,11 +1,11 @@
-sw_volume: 100
+sw_volume: 0
 audio_device_state:1:pulse audio
 audio_device_state:0:my_fifo
-state: play
-current: 23
-time: 153.971000
+state: pause
+current: 11
+time: 253.701000
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
@@ -14,32 +14,33 @@ mixrampdelay: -1.000000
 playlist_begin
 0:Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac
 1:Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac
-2:Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac
-3:Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac
-4:Peter Gundry - The Unspoken Tales (2017) FLAC/03 - Master of Death.flac
-5:Peter Gundry - The Unspoken Tales (2017) FLAC/04 - Tonight Ve Dance.flac
-6:Peter Gundry - The Unspoken Tales (2017) FLAC/05 - I Invoke Cursed Winds.flac
-7:Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac
-8:Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac
-9:Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac
-10:Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac
-11:Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac
-12:Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac
-13:Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac
-14:Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac
-15:Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac
-16:Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac
-17:Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a
-18:Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a
-19:Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a
-20:Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a
-21:Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a
-22:Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a
-23:Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a
-24:Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a
-25:Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a
-26:Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a
-27:Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a
-28:Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a
-29:Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a
+2:Peter Gundry - The Unspoken Tales (2017) FLAC/03 - Master of Death.flac
+3:Peter Gundry - The Unspoken Tales (2017) FLAC/04 - Tonight Ve Dance.flac
+4:Peter Gundry - The Unspoken Tales (2017) FLAC/05 - I Invoke Cursed Winds.flac
+5:Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac
+6:Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac
+7:Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac
+8:Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac
+9:Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac
+10:Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac
+11:Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac
+12:Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac
+13:Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac
+14:Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac
+15:Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a
+16:Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a
+17:Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a
+18:Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a
+19:Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a
+20:Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a
+21:Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a
+22:Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a
+23:Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a
+24:Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a
+25:Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a
+26:Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a
+27:Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a
+28:Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3
+29:Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3
+30:Mystica girl/Gates of hell/Mystica Girls - Sweet Picking [mp3clan].mp3
 playlist_end
