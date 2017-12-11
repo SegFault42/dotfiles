@@ -230,6 +230,9 @@ bindsym button8 move right
 assign [class="Wire"] 9
 assign [class="discord"] 9
 assign [class="Slack"] 9
+assign [class="Keepassx"] 8
+assign [class="electrum"] 8
+assign [class="Steam"] 7
 
 for_window [class="Firefox"] focus
 
@@ -273,8 +276,8 @@ for_window [class="Etcher.AppImage"] floating enable
 for_window [class="etcher-electron"] floating enable
 for_window [class="Cinnamon-settings.py"] floating enable
 for_window [class="Blueberry.py"] floating enable
-for_window [class="Keepassx"] floating enable
-for_window [class="electrum"] floating enable
+#for_window [class="Keepassx"] floating enable
+#for_window [class="electrum"] floating enable
 for_window [class="Gdebi-gtk"] floating enable
 
 
@@ -369,3 +372,4 @@ bindsym $mod+u border none
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
 
+focus_follows_mouse no

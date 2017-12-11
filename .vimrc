@@ -4,11 +4,11 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 " Variable configuration for Sublivim
-let sbv_theme='molokai'
+let sbv_theme='badwolf'
 " Open NERDTree with vim
-let sbv_open_nerdtree_to_start=1
+let sbv_open_nerdtree_to_start=0
 " Open Nerd Panel with a new tab
-let sbv_open_nerdtree_with_new_tab=1
+let sbv_open_nerdtree_with_new_tab=0
 " Enabled / Disabled placeholder chars
 let sbv_display_placeholder=1
 " Charactere placeholder for tabulation [2 char]
@@ -192,4 +192,3 @@ function! s:CloseIfOnlyNerdTreeLeft()
 		endif
 	endif
 endfunction
-

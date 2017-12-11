@@ -27,8 +27,6 @@ yellow = #ffff00
 ;-------------------------------------------------------------------------------
 
 [bar/main]
-
-monitor = ${env:MONITOR:}
 width = 100%
 height = 17
 radius = 1.0
@@ -203,7 +201,11 @@ enable-click = true
 enable-scroll = false
 
 ws-icon-0 = 9;
-ws-icon-default = 
+ws-icon-1 = 8;
+ws-icon-2 = 2;
+ws-icon-3 = 7;
+ws-icon-4 = 6;
+ws-icon-default = 
 
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
@@ -213,7 +215,7 @@ label-mode-foreground = ${colors.red}
 label-mode-background = ${colors.background}
 
 ; focused = Active workspace on focused monitor
-label-focused = "  "
+label-focused = " %icon% "
 label-focused-foreground = ${colors.green}
 label-focused-background = ${colors.background}
 
