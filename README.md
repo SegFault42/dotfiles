@@ -1,4 +1,7 @@
 # Linux Mint [i3-gaps]
+
+[![HitCount](http://hits.dwyl.io/SegFault42/https://github.com/SegFault42/dotfiles.svg)](http://hits.dwyl.io/SegFault42/https://github.com/SegFault42/dotfiles)
+
 This is my i3wm setup
 To install, place the files in the Home folder.
 
