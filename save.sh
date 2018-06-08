@@ -23,3 +23,6 @@ cp -fr ~/.mpd .
 
 /bin/rm -fr ./.ncmpcpp
 cp -fr ~/.ncmpcpp .
+
+/bin/rm -fr ./Xresources
+cp -fr ~/.Xresources .

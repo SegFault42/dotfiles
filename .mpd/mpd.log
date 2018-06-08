@@ -2422,3 +2422,155 @@ Dec 11 19:29 : player: played "Mystica girl/Gates of hell/Mystica Girls - New Aw
 Dec 11 19:31 : client: [2] closed
 Dec 11 19:31 : pulse_output: "pulse audio" [pulse] failed to play: disconnected
 Dec 11 19:31 : player: played "Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3"
+May 26 23:53 : avahi: Service 'Music Player' successfully established.
+May 26 23:53 : client: [0] opened from 127.0.0.1:41896
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Gates Of Hell [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Gates Of Hell [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Gates Of Hell [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Gates Of Hell [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - The Gates Of Hell [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Boogie Biker [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Boogie Biker [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Boogie Biker [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Boogie Biker [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - The Boogie Biker [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Spirit Has Won [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Spirit Has Won [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Spirit Has Won [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Spirit Has Won [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - The Spirit Has Won [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Tiny Blue Dot [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Tiny Blue Dot [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Tiny Blue Dot [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Tiny Blue Dot [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - Tiny Blue Dot [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Conquest [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Conquest [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Conquest [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - The Conquest [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - The Conquest [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Sweet Picking [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Sweet Picking [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Sweet Picking [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Sweet Picking [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - Sweet Picking [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Why Should We Need [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Why Should We Need [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Why Should We Need [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Why Should We Need [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - Why Should We Need [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - Spooky Cookie [mp3clan].mp3"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/01 - The Shadows Hymn.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/02 - Shades and Shadows.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/03 - Master of Death.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/03 - Master of Death.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/03 - Master of Death.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/04 - Tonight Ve Dance.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/04 - Tonight Ve Dance.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/04 - Tonight Ve Dance.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/05 - I Invoke Cursed Winds.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/05 - I Invoke Cursed Winds.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/05 - I Invoke Cursed Winds.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/06 - The Essence.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/07 - The Witch Trials.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/08 - Rise of the Fallen.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/09 - The Hand That Feeds You.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/10 - The Nocturnal.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/11 - Blood Wars.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/12 - The Daughter of Darkness.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/13 - The Ashes Will Be Woken.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/14 - The One Who Dwells Within.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac": No such file or directory
+May 26 23:53 : player: played "Peter Gundry - The Unspoken Tales (2017) FLAC/15 - The Witch's Curse.flac"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/01. Moonspell.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/02. To Be Myself.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/03. Without You.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/04. Old Times.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/05. Depressive Souls.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/06. So Now It's What-.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/07. A Part of My Own Self.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/08. Fallen Angel (Symphonic Version).m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/09. Stereotypes.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/10. Life or Death.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/11. No More!.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/12. The Boogie Biker.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a": No such file or directory
+May 26 23:53 : player: played "Mystica Girls - Veronica, the Courtesan from Hell (2016)/13. Monster Surf.m4a"
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3": No such file or directory
+
+[readers.c:1182] error: Cannot open file /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3: No such file or directory
+May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3: A generic mpg123 error.
+May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3": No such file or directory
+May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3"
+May 26 23:54 : client: [0] closed

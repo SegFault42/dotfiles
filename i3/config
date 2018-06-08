@@ -22,8 +22,8 @@ exec_always compton --config ~/.config/i3/compton.conf
 
 
 for_window [class="^.*"] border pixel 2
-gaps inner 10
-gaps outer 0
+#gaps inner 10
+#gaps outer 0
 #smart_gaps on
 #smart_borders on
 
@@ -53,7 +53,7 @@ bindsym $mod+control+l exec ~/.config/i3/scripts/lock.sh
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -228,6 +228,7 @@ bindsym button8 move right
 
 # Assign section
 assign [class="Wire"] 9
+assign [class="Franz"] 9
 assign [class="discord"] 9
 assign [class="Slack"] 9
 assign [class="Keepassx"] 8
@@ -297,11 +298,12 @@ exec cinnamon-sound-applet
 #workspace related applications (use --no-startup-id if needed)
 
 exec firefox
-exec gnome-terminal
+exec urxvt
 exec discord
 exec Wire
 exec wire
 exec wire-desktop
+exec franz
 
 # copy paste this in terminal
 # gsettings set org.nemo.desktop show-desktop-icons false
