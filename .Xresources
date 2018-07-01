@@ -1,5 +1,5 @@
 ! Appearance
-urxvt.termName: rxvt-unicode
+urxvt.termName: rxvt-256color
 urxvt.scrollBar: false
 urxvt.background: black
 urxvt.foreground: gray

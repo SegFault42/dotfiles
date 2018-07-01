@@ -22,8 +22,8 @@ exec_always compton --config ~/.config/i3/compton.conf
 
 
 for_window [class="^.*"] border pixel 2
-#gaps inner 10
-#gaps outer 0
+gaps inner 10
+gaps outer 0
 #smart_gaps on
 #smart_borders on
 
@@ -280,6 +280,7 @@ for_window [class="Blueberry.py"] floating enable
 #for_window [class="Keepassx"] floating enable
 #for_window [class="electrum"] floating enable
 for_window [class="Gdebi-gtk"] floating enable
+for_window [class="qemu-system-i386"] floating enable
 
 
 for_window [class="Hexchat"] floating disable

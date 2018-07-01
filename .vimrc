@@ -25,6 +25,8 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
+Plugin 'terryma/vim-multiple-cursors'
+
 "====================================Vim-Plugin=================================
 
 call vundle#end()            " required
@@ -58,6 +60,8 @@ set nu
 
 map <C-g> :NERDTreeToggle<CR>
 nnoremap <F5> :UndotreeToggle<cr>
+
+nmap <F8> :TagbarToggle<CR>
 "========================switch between pane in split mode======================
 map <C-j> <C-W>j
 map <C-k> <C-W>k

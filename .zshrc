@@ -30,3 +30,8 @@ for x in {0..8}; do for i in {30..37}; do for a in {40..47}; do echo -ne "\e[$x;
 export GOPATH=$HOME/go
 export GOROOT=$HOME/go
 export PATH=$PATH:$GOROOT/bin
+# Install Ruby Gems to ~/gems
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+
+alias powervim_update="curl https://raw.githubusercontent.com/SegFault42/vim_config/master/install.sh | bash"
