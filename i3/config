@@ -228,12 +228,12 @@ bindsym button8 move right
 
 # Assign section
 assign [class="Wire"] 9
-assign [class="Franz"] 9
+assign [class="Keybase"] 9
 assign [class="discord"] 9
 assign [class="Slack"] 9
-assign [class="Keepassx"] 8
+assign [class="keepassxc"] 8
 assign [class="electrum"] 8
-assign [class="Steam"] 7
+assign [class="Geary"] 7
 
 for_window [class="Firefox"] focus
 
@@ -281,6 +281,7 @@ for_window [class="Blueberry.py"] floating enable
 #for_window [class="electrum"] floating enable
 for_window [class="Gdebi-gtk"] floating enable
 for_window [class="qemu-system-i386"] floating enable
+for_window [class="yuzu-cmd"] floating enable
 
 
 for_window [class="Hexchat"] floating disable
@@ -305,6 +306,9 @@ exec Wire
 exec wire
 exec wire-desktop
 exec franz
+exec geary
+exec slack
+exec run_keybase
 
 # copy paste this in terminal
 # gsettings set org.nemo.desktop show-desktop-icons false
