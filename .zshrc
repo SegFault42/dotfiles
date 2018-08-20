@@ -20,8 +20,11 @@ export DEVKITARM=/opt/devkitpro/devkitARM
 export DEVKITPPC=/opt/devkitpro/devkitPPC
 export DEVKITA64=/opt/devkitpro/devkitA64
 export LIBTRANSISTOR_HOME=/opt/libtransistor
+export XDG_CONFIG_HOME=/home/segfault42/.config
 
 alias ls_rss="krill -s http://www.logic-sunrise.com/forums/rss/forums/1-news-fr/"
 alias vi="nvim"
 
 cat ~/.ascii_segfault
+
+export XDG_CONFIG_DIRS=$XDG_CONFIG_HOME

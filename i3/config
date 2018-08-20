@@ -14,7 +14,7 @@ exec unclutter
 
 exec_always --no-startup-id /home/segfault42/.config/polybar/lauch.sh
 exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper1.png
-exec_always compton --config ~/.config/i3/compton.conf
+#exec_always compton --config ~/.config/i3/compton.conf
 
 ###########################################################################
 ###################  I 3  G A P S  N E X T   ##############################
@@ -22,8 +22,8 @@ exec_always compton --config ~/.config/i3/compton.conf
 
 
 for_window [class="^.*"] border pixel 2
-gaps inner 10
-gaps outer 0
+gaps inner 0
+gaps outer 1
 #smart_gaps on
 #smart_borders on
 
@@ -53,7 +53,7 @@ bindsym $mod+control+l exec ~/.config/i3/scripts/lock.sh
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -282,6 +282,7 @@ for_window [class="Blueberry.py"] floating enable
 for_window [class="Gdebi-gtk"] floating enable
 for_window [class="qemu-system-i386"] floating enable
 for_window [class="yuzu-cmd"] floating enable
+for_window [class="Test"] floating enable
 
 
 for_window [class="Hexchat"] floating disable
@@ -376,7 +377,10 @@ bindsym $mod+y border 1pixel
 bindsym $mod+u border none
 
 #Screen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 
 focus_follows_mouse no
+
+client.focused			#ffffff  #ffffff  #111111
+client.unfocused		#000000  #000000  #000000

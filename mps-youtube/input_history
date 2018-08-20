@@ -78,3 +78,16 @@ set player mpv
 q
 /https://www.youtube.com/watch?v=g5fvCEAHZf8
 1
+https://www.youtube.com/watch?v=_jud_SnKTlY
+/https://www.youtube.com/watch?v=_jud_SnKTlY
+config
+h
+h basic
+h 
+h config
+set show_video true
+/https://www.youtube.com/watch?v=_jud_SnKTlY
+1
+5
+2
+1

@@ -1,0 +1,75 @@
+# ----------------------------------------------------------------------
+# file:     ~/.config/termite/config
+# author:   moparx     - http://moparx.com/configs
+# last mod: 07/20/2014 - 18:12 EDT
+# vim: set ai et fenc=utf-8 ft=conf nu si sts=0 sw=4 ts=8 tw=0 :
+# ----------------------------------------------------------------------
+
+[options]
+    resize_grip = false
+    scroll_on_output = false
+    scroll_on_keystroke = true
+    audible_bell = false
+    visible_bell = false
+    mouse_autohide = true
+    allow_bold = true
+    dynamic_title = true
+    urgent_on_bell = true
+    clickable_url = true
+    #font = FuraMono Nerd Font 12
+    font = Hack Nerd Font 12
+    scrollback_lines = 1000
+    search_wrap = true
+    #icon_name = terminal
+    #geometry = 640x480
+
+    # "system", "on" or "off"
+    cursor_blink = system
+
+    # "block", "underline" or "ibeam"
+    cursor_shape = block
+
+    # $BROWSER is used by default
+    browser = firefox
+
+    # word characters used for word selection
+    # (default if unset: all graphic non-punctuation/space characters)
+    #word_chars = -A-Za-z0-9,./?%&#:_=+@~
+
+[colors]
+    foreground = #FFFFFF
+    #foreground_bold = #ffffff
+    #foreground_dim = #888888
+    background = #222222
+    cursor = #DDDDDD
+
+    # if unset, will reverse foreground and background
+    highlight = #2f2f2f
+
+    color0 = #000000
+    color1 = #CC0000
+    color2 = #4E9A06
+    color3 = #C4A000
+    color4 = #3465A4
+    color5 = #75507B
+    color6 = #06989A
+    color7 = #D3D7CF
+    color8 = #555753
+    color9 = #EF2929
+    color10 = #8AE234
+    color11 = #FCE94F
+    color12 = #729FCF
+    color13 = #AD7FA8
+    color14 = #34E2E2
+    color15 = #EEEEEC
+
+[hints]
+    foreground = #55FFFF
+
+    #font = Monospace 12
+    #foreground = #dcdccc
+    #background = #3f3f3f
+    #padding = 2
+    #border = #3f3f3f
+    #border_width = 0.5
+    #roundness = 2.0
