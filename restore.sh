@@ -26,3 +26,6 @@ cp -fr ./.ncmpcpp ~/
 
 /bin/rm -fr ~/.Xresources
 cp -fr ./.Xresources ~/
+
+/bin/rm -fr ~/.config/termite
+cp -fr ./termite ~/.config/

@@ -37,31 +37,71 @@
     #word_chars = -A-Za-z0-9,./?%&#:_=+@~
 
 [colors]
-    foreground = #FFFFFF
-    #foreground_bold = #ffffff
-    #foreground_dim = #888888
-    background = #222222
-    cursor = #DDDDDD
+    # hard contrast: background = #1d2021
+    background = #282828
+    # soft contrast: background = #32302f
+    foreground = #ebdbb2
+    foreground_bold = #ebdbb2
+    
+    # dark0 + gray
+    color0 = #282828
+    color8 = #928374
+    
+    # neutral_red + bright_red
+    color1 = #cc241d
+    color9 = #fb4934
+    
+    # neutral_green + bright_green
+    color2 = #98971a
+    color10 = #b8bb26
+    
+    # neutral_yellow + bright_yellow
+    color3 = #d79921
+    color11 = #fabd2f
+    
+    # neutral_blue + bright_blue
+    color4 = #458588
+    color12 = #83a598
+    
+    # neutral_purple + bright_purple
+    color5 = #b16286
+    color13 = #d3869b
+    
+    # neutral_aqua + faded_aqua
+    color6 = #689d6a
+    color14 = #8ec07c
+    
+    # light4 + light1
+    color7 = #a89984
+    color15 = #ebdbb2
 
-    # if unset, will reverse foreground and background
-    highlight = #2f2f2f
+## vim: ft=dosini cms=#%s
+#[colors]
+    #foreground = #FFFFFF
+    ##foreground_bold = #ffffff
+    ##foreground_dim = #888888
+    #background = #222222
+    #cursor = #DDDDDD
 
-    color0 = #000000
-    color1 = #CC0000
-    color2 = #4E9A06
-    color3 = #C4A000
-    color4 = #3465A4
-    color5 = #75507B
-    color6 = #06989A
-    color7 = #D3D7CF
-    color8 = #555753
-    color9 = #EF2929
-    color10 = #8AE234
-    color11 = #FCE94F
-    color12 = #729FCF
-    color13 = #AD7FA8
-    color14 = #34E2E2
-    color15 = #EEEEEC
+    ## if unset, will reverse foreground and background
+    #highlight = #2f2f2f
+
+    #color0 = #000000
+    #color1 = #CC0000
+    #color2 = #4E9A06
+    #color3 = #C4A000
+    #color4 = #3465A4
+    #color5 = #75507B
+    #color6 = #06989A
+    #color7 = #D3D7CF
+    #color8 = #555753
+    #color9 = #EF2929
+    #color10 = #8AE234
+    #color11 = #FCE94F
+    #color12 = #729FCF
+    #color13 = #AD7FA8
+    #color14 = #34E2E2
+    #color15 = #EEEEEC
 
 [hints]
     foreground = #55FFFF
