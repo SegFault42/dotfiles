@@ -301,7 +301,7 @@ exec cinnamon-sound-applet
 #workspace related applications (use --no-startup-id if needed)
 
 exec firefox
-exec urxvt
+exec termite
 exec discord
 exec Wire
 exec wire

@@ -80,6 +80,8 @@ set cc=80
 set hlsearch
 set encoding=utf-8
 
+set timeoutlen=1000 ttimeoutlen=0
+
 "===========colorscheme
 colorscheme gruvbox
 set background=dark    " Setting dark mode

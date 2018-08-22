@@ -24,6 +24,9 @@ export XDG_CONFIG_HOME=/home/segfault42/.config
 
 alias ls_rss="krill -s http://www.logic-sunrise.com/forums/rss/forums/1-news-fr/"
 alias vi="nvim"
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
 
 cat ~/.ascii_segfault
 
