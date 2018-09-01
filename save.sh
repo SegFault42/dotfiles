@@ -29,6 +29,3 @@ cp -fr ~/.Xresources .
 
 /bin/rm -fr ./.config/termite
 cp -fr ~/.config/termite .
-
-/bin/rm -fr ./.tmux.conf
-cp -fr ~/.tmux.conf .

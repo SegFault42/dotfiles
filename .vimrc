@@ -14,7 +14,7 @@ Plugin 'vim-scripts/L9'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mbbill/undotree'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -28,7 +28,8 @@ Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
-"Plugin 'vim-scripts/OmniCppComplete'
+Plugin 'vim-scripts/OmniCppComplete'
+Plugin 'sheerun/vim-polyglot'
 "colorscheme
 Plugin 'mhartington/oceanic-next'
 Plugin 'sjl/badwolf'
@@ -42,6 +43,9 @@ Plugin 'jacoborus/tender.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 filetype plugin on
+
+" Load powerline fonts (Hack in my case)
+let g:airline_powerline_fonts = 1
 
 let g:Powerline_symbols = 'fancy'
 let g:NERDTreeDirArrowExpandable = '▸'
@@ -80,7 +84,14 @@ set cc=80
 set hlsearch
 set encoding=utf-8
 
-set timeoutlen=1000 ttimeoutlen=0
+" Use italics in things like comments and properties<Paste>
+hi htmlArg gui=italic
+hi Comment gui=italic
+hi Type    gui=italic
+hi htmlArg cterm=italic
+hi Comment cterm=italic
+hi Type    cterm=italic
+highlight Comment cterm=italic
 
 "===========colorscheme
 colorscheme gruvbox

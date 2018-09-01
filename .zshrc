@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/segfault42/.oh-my-zsh
+export ZSH=/home/segfault42/.oh-my-zsh
 
 ZSH_THEME="af-magic"
 
@@ -31,3 +31,4 @@ alias pbpaste='xclip -selection clipboard -o'
 cat ~/.ascii_segfault
 
 export XDG_CONFIG_DIRS=$XDG_CONFIG_HOME
+alias battery="upower -i $(upower -e | grep '/battery') | grep --color=never -E \"state|to\ full|to\ empty|percentage\""

@@ -12,7 +12,7 @@
 #get the mouse out of the way with unclutter
 exec unclutter
 
-exec_always --no-startup-id /home/segfault42/.config/polybar/lauch.sh
+exec_always --no-startup-id /home/segfault42/.config/polybar/launch.sh
 exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper1.png
 #exec_always compton --config ~/.config/i3/compton.conf
 
