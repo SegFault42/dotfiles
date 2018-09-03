@@ -29,3 +29,6 @@ cp -fr ~/.Xresources .
 
 /bin/rm -fr ./.config/termite
 cp -fr ~/.config/termite .
+
+/bin/rm -fr ./.config/redshift/redshift.conf
+cp -fr ~/.config/redshift/redshift.conf .
