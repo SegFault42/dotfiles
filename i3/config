@@ -17,6 +17,7 @@ exec --no-startup-id redshift
 exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper1.png
 #exec_always compton --config ~/.config/i3/compton.conf
 
+
 ###########################################################################
 ###################  I 3  G A P S  N E X T   ##############################
 ###########################################################################
@@ -385,3 +386,8 @@ focus_follows_mouse no
 
 client.focused			#ffffff  #ffffff  #111111
 client.unfocused		#000000  #000000  #000000
+
+# exec Dunst notifier
+exec_always killall xfce4-notifyd
+exec_always dunst
+

@@ -37,3 +37,6 @@ cp -fr ./redshift ~/.config/
 #cp -fr ~/.tmux.conf ~/
 
 cp -fr .ascii_segfault ~/
+
+/bin/rm -fr ~/.config/dunst
+cp -fr ./dunst ~/.config/

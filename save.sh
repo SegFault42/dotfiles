@@ -32,3 +32,6 @@ cp -fr ~/.config/termite .
 
 /bin/rm -fr ./.config/redshift/redshift.conf
 cp -fr ~/.config/redshift/redshift.conf .
+
+/bin/rm -fr ./.config/dunst
+cp -fr ~/.config/dunst .
