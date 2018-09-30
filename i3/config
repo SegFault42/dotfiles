@@ -233,6 +233,7 @@ assign [class="Wire"] 9
 assign [class="Keybase"] 9
 assign [class="discord"] 9
 assign [class="Slack"] 9
+assign [class="signal"] 9
 assign [class="keepassxc"] 8
 assign [class="electrum"] 8
 assign [class="Geary"] 7
@@ -312,6 +313,7 @@ exec franz
 exec geary
 exec slack
 exec run_keybase
+exec signal_desktop
 
 # copy paste this in terminal
 # gsettings set org.nemo.desktop show-desktop-icons false
