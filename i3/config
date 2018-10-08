@@ -393,3 +393,4 @@ client.unfocused		#000000  #000000  #000000
 exec_always killall xfce4-notifyd
 exec_always dunst
 
+bindsym $mod+w sticky toggle

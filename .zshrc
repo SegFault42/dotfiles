@@ -35,3 +35,4 @@ alias battery="upower -i $(upower -e | grep '/battery') | grep --color=never -E 
 alias fusee-launcher="/home/segfault42/Documents/switch/fusee-launcher/fusee-launcher.py /home/segfault42/Documents/switch/Darth_Meteos/ReiNX.bin"
 alias disable_suspend="sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target"
 alias enable_suspend="sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target"
+alias reload_mouse="sudo modprobe -r psmouse && sudo modprobe psmouse"
