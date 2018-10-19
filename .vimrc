@@ -30,6 +30,7 @@ Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-scripts/OmniCppComplete'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'stevearc/vim-arduino'
 "colorscheme
 Plugin 'mhartington/oceanic-next'
 Plugin 'sjl/badwolf'
@@ -113,3 +114,5 @@ map <C-l> <C-W>l
 noremap + :vertical resize +1<CR>
 noremap - :vertical resize -1<CR>
 noremap ~ <C-w>=
+
+let g:arduino_dir = '/usr/bin/arduino'
