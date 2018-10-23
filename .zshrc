@@ -36,3 +36,5 @@ alias fusee-launcher="/home/segfault42/Documents/switch/fusee-launcher/fusee-lau
 alias disable_suspend="sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target"
 alias enable_suspend="sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target"
 alias reload_mouse="sudo modprobe -r psmouse && sudo modprobe psmouse"
+
+alias ip="curl https://ipecho.net/plain"
