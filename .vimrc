@@ -116,3 +116,5 @@ noremap - :vertical resize -1<CR>
 noremap ~ <C-w>=
 
 let g:arduino_dir = '/usr/bin/arduino'
+
+let g:ycm_server_python_interpreter = '/usr/bin/python'
