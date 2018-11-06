@@ -23,7 +23,7 @@ export LIBTRANSISTOR_HOME=/opt/libtransistor
 export XDG_CONFIG_HOME=/home/segfault42/.config
 
 alias ls_rss="krill -s http://www.logic-sunrise.com/forums/rss/forums/1-news-fr/"
-alias vi="nvim"
+#alias vi="nvim"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
@@ -33,8 +33,11 @@ cat ~/.ascii_segfault
 export XDG_CONFIG_DIRS=$XDG_CONFIG_HOME
 alias battery="upower -i $(upower -e | grep '/battery') | grep --color=never -E \"state|to\ full|to\ empty|percentage\""
 alias fusee-launcher="/home/segfault42/Documents/switch/fusee-launcher/fusee-launcher.py /home/segfault42/Documents/switch/Darth_Meteos/ReiNX.bin"
+alias infinite-fusee-launcher="while true; do /home/segfault42/Documents/switch/fusee-launcher/fusee-launcher.py /home/segfault42/Documents/switch/Darth_Meteos/ReiNX.bin > /dev/null 2>&1; sleep 1; done&"
 alias disable_suspend="sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target"
 alias enable_suspend="sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target"
 alias reload_mouse="sudo modprobe -r psmouse && sudo modprobe psmouse"
 
 alias ip="curl https://ipecho.net/plain"
+
+alias vi="/usr/bin/vim"
