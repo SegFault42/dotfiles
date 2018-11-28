@@ -41,3 +41,18 @@ alias reload_mouse="sudo modprobe -r psmouse && sudo modprobe psmouse"
 alias ip="curl https://ipecho.net/plain"
 
 alias vi="/usr/bin/vim"
+
+alias suspend="dbus-send --system --print-reply --dest=org.freedesktop.login1 /org/freedesktop/login1 "org.freedesktop.login1.Manager.Suspend" boolean:true"
+alias reboot="dbus-send --system --print-reply --dest=org.freedesktop.login1 /org/freedesktop/login1 "org.freedesktop.login1.Manager.Reboot" boolean:true"
+
+
+export TERM=xterm-256color
+
+function colors(){
+for i in {0..255} ; do
+    printf "\x1b[38;5;${i}m%3d " "${i}"
+    if (( $i == 15 )) || (( $i > 15 )) && (( ($i-15) % 12 == 0 )); then
+        echo;
+    fi
+done
+}

@@ -395,4 +395,8 @@ client.unfocused		#000000  #000000  #000000
 exec_always killall xfce4-notifyd
 exec_always dunst
 
+#exec battery notifier
+exec_always killall /home/segfault42/go/src/github.com/SegFault42/low_battery_alert/battery_alert
+exec_always /home/segfault42/.config/i3/scripts/i3_battery_alert
+
 bindsym $mod+w sticky toggle
