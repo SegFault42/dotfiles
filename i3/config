@@ -24,7 +24,7 @@ exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper1.png
 
 
 for_window [class="^.*"] border pixel 2
-gaps inner 0
+gaps inner 4
 gaps outer 1
 #smart_gaps on
 #smart_borders on

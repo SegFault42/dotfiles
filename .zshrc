@@ -35,6 +35,8 @@ export XDG_CONFIG_DIRS=$XDG_CONFIG_HOME
 alias battery="upower -i $(upower -e | grep '/battery') | grep --color=never -E \"state|to\ full|to\ empty|percentage\""
 alias fusee-launcher="/home/segfault42/Documents/switch/fusee-launcher/fusee-launcher.py /home/segfault42/Documents/switch/Darth_Meteos/ReiNX.bin"
 alias infinite-fusee-launcher="while true; do /home/segfault42/Documents/switch/fusee-launcher/fusee-launcher.py /home/segfault42/Documents/switch/Darth_Meteos/ReiNX.bin > /dev/null 2>&1; sleep 1; done&"
+alias argon-nx="~/Documents/switch/fusee-launcher/fusee-launcher.py ~/Documents/argon-nx/output/argon-nx.bin"
+
 alias disable_suspend="sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target"
 alias enable_suspend="sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target"
 alias reload_mouse="sudo modprobe -r psmouse && sudo modprobe psmouse"
