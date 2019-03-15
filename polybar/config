@@ -55,7 +55,7 @@ font-1 = Hack:pixelsize=32;2
 font-2 = FontAwesome:fontformat=truetype:size=10;1
 
 modules-left = i3 arrow0 i3index arrow
-modules-center = music battery_check
+;modules-center = music battery_check
 modules-right = arrow8 xkeyboard arrow7 memory arrow6 cpu arrow7 battery arrow6 volume arrow7 date arrow6
 
 tray-position = right

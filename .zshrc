@@ -49,7 +49,6 @@ alias reboot="dbus-send --system --print-reply --dest=org.freedesktop.login1 /or
 alias cli="sudo ln -sf /lib/systemd/system/multi-user.target /etc/systemd/system/default.target"
 alias gui="sudo ln -sf /lib/systemd/system/graphical.target  /etc/systemd/system/default.target"
 
-
 export TERM=xterm-256color
 
 function colors(){

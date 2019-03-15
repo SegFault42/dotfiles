@@ -17,7 +17,7 @@
     urgent_on_bell = true
     clickable_url = true
     #font = FuraMono Nerd Font 12
-    font = Hack Nerd Font 10
+    font = Hack Nerd Font 12
     scrollback_lines = 1000
     search_wrap = true
     #icon_name = terminal
@@ -75,33 +75,6 @@
     color7 = #a89984
     color15 = #ebdbb2
 
-## vim: ft=dosini cms=#%s
-#[colors]
-    #foreground = #FFFFFF
-    ##foreground_bold = #ffffff
-    ##foreground_dim = #888888
-    #background = #222222
-    #cursor = #DDDDDD
-
-    ## if unset, will reverse foreground and background
-    #highlight = #2f2f2f
-
-    #color0 = #000000
-    #color1 = #CC0000
-    #color2 = #4E9A06
-    #color3 = #C4A000
-    #color4 = #3465A4
-    #color5 = #75507B
-    #color6 = #06989A
-    #color7 = #D3D7CF
-    #color8 = #555753
-    #color9 = #EF2929
-    #color10 = #8AE234
-    #color11 = #FCE94F
-    #color12 = #729FCF
-    #color13 = #AD7FA8
-    #color14 = #34E2E2
-    #color15 = #EEEEEC
 
 [hints]
     foreground = #55FFFF
