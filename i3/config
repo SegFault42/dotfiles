@@ -14,7 +14,7 @@ exec unclutter
 
 exec_always --no-startup-id /home/segfault42/.config/polybar/launch.sh
 exec --no-startup-id redshift
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper1.png
+exec --no-startup-id feh --bg-scale ~/Pictures/forest-16bits.png
 #exec_always compton --config ~/.config/i3/compton.conf
 
 
@@ -396,7 +396,6 @@ exec_always killall xfce4-notifyd
 exec_always dunst
 
 #exec battery notifier
-exec_always killall /home/segfault42/go/src/github.com/SegFault42/low_battery_alert/battery_alert
-exec_always /home/segfault42/.config/i3/scripts/i3_battery_alert
+exec_always /home/segfault42/.config/i3/scripts/i3_battery_alert.sh
 
 bindsym $mod+w sticky toggle
