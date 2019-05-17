@@ -13,7 +13,7 @@
 exec unclutter
 
 exec_always --no-startup-id /home/segfault42/.config/polybar/launch.sh
-exec --no-startup-id redshift
+#exec --no-startup-id redshift
 exec --no-startup-id feh --bg-scale ~/Pictures/forest-16bits.png
 #exec_always compton --config ~/.config/i3/compton.conf
 
@@ -234,6 +234,7 @@ assign [class="Keybase"] 9
 assign [class="discord"] 9
 assign [class="Slack"] 9
 assign [class="signal"] 9
+assign [class="Whatsie"] 9
 assign [class="keepassxc"] 8
 assign [class="electrum"] 8
 assign [class="Geary"] 7

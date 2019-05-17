@@ -25,7 +25,7 @@ export XDG_CONFIG_HOME=/home/segfault42/.config
 
 # Alias
 alias ls_rss="krill -s http://www.logic-sunrise.com/forums/rss/forums/1-news-fr/"
-#alias vi="nvim"
+alias vi="nvim"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias battery="upower -i $(upower -e | grep '/battery') | grep --color=never -E \"state|to\ full|to\ empty|percentage\""

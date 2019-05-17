@@ -30,8 +30,10 @@ Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-scripts/OmniCppComplete'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'stevearc/vim-arduino'
 Plugin 'paretje/nvim-man'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'tpope/vim-endwise'
+
 "colorscheme
 Plugin 'mhartington/oceanic-next'
 Plugin 'sjl/badwolf'
@@ -39,6 +41,7 @@ Plugin 'whatyouhide/vim-gotham'
 Plugin 'morhetz/gruvbox'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'jacoborus/tender.vim'
+Plugin 'vim-ruby/vim-ruby'
 
 "====================================Vim-Plugin=================================
 
@@ -117,4 +120,5 @@ noremap - :vertical resize -1<CR>
 noremap ~ <C-w>=
 
 :set backspace=indent,eol,start
+set runtimepath+=~/.vim-plugins/LanguageClient-neovim
 

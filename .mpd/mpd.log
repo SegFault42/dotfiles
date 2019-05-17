@@ -2574,3 +2574,5 @@ May 26 23:53 : mpg123: libmpg123 failed to open /home/segfault42/Music/Mystica g
 May 26 23:53 : errno: Failed to open "/home/segfault42/Music/Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3": No such file or directory
 May 26 23:53 : player: played "Mystica girl/Gates of hell/Mystica Girls - New Awakening [mp3clan].mp3"
 May 26 23:54 : client: [0] closed
+May 15 19:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 19:49 : avahi: Service 'Music Player @ segfault42-pc' successfully established.
