@@ -1,0 +1,34 @@
+# About Me
+set from = "ramzi90000@gmail.com"
+set realname = "Ramzi90000"
+
+# My credentials
+set smtp_url = "smtps://ramzi90000@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = ""
+set imap_user = "ramzi90000@gmail.com"
+set imap_pass = ""
+
+# My mailboxes
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set ssl_force_tls = yes
+
+
+# Where to put the stuff
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+# Etc
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "vim"
+
+# GnuPG bootstrap
+# source ~/.mutt/gpg.rc
+ source ~/.mutt/colors-gruvbox-shuber.muttrc
+# For neomutt uncomment this line:
+ source ~/.mutt/colors-gruvbox-shuber-extended.muttrc
+

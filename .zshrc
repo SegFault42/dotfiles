@@ -57,3 +57,5 @@ for i in {0..255} ; do
     fi
 done
 }
+
+alias launch_fbterm='fbterm; export TERM="fbterm"; tmux'

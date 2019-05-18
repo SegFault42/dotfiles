@@ -35,3 +35,9 @@ cp -fr ~/.config/redshift/redshift.conf .
 
 /bin/rm -fr ./.config/dunst
 cp -fr ~/.config/dunst .
+
+/bin/rm -fr ./.mutt
+mkdir .mutt
+cp -fr ~/.mutt/muttrc ./.mutt
+cp -fr ~/.mutt/colors-gruvbox-shuber-extended.muttrc ./.mutt/colors-gruvbox-shuber-extended.muttrc
+cp -fr ~/.mutt/colors-gruvbox-shuber.muttrc ./.mutt/colors-gruvbox-shuber.muttrc

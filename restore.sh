@@ -40,3 +40,6 @@ cp -fr .ascii_segfault ~/
 
 /bin/rm -fr ~/.config/dunst
 cp -fr ./dunst ~/.config/
+
+/bin/rm -fr ~/.mutt
+cp -fr .mutt ~/
