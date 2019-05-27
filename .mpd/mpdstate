@@ -1,13 +1,42 @@
-sw_volume: 100
+sw_volume: 98
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 21
+time: 62.140000
 random: 0
-repeat: 1
+repeat: 0
 single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:Ganja Smuggling.mp3
+1:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/01. The Shadows Hymn.mp3
+2:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/02. Shades And Shadows.mp3
+3:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/03. Master Of Death.mp3
+4:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3
+5:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3
+6:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3
+7:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/07. The Witch Trials.mp3
+8:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/08. Rise Of The Fallen.mp3
+9:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/09. The Hand That Feeds You.mp3
+10:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/10. The Nocturnal.mp3
+11:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/11. Blood Wars.mp3
+12:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/12. The Daughter Of Darkness.mp3
+13:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3
+14:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+15:Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3
+16:Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3
+17:Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3
+18:Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3
+19:Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3
+20:Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3
+21:Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+22:Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3
+23:Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3
+24:Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
+25:Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
+26:Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
 playlist_end
