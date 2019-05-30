@@ -70,7 +70,7 @@ bindsym $mod+d exec rofi\
 						#-hlfg "#eeeeee"\
 						#-bw 4\
 						#-eh 1\
-						-font "Hack 15"\
+						#-font "Hack 15"\
 						#-opacity "80"\
 						#-lines 8\
 						#-line-margin 1

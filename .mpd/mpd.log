@@ -2662,3 +2662,336 @@ May 27 00:31 : client: [14] closed
 May 27 00:34 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/02. Shades And Shadows.mp3"
 May 27 00:38 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/03. Master Of Death.mp3"
 May 27 00:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3"
+May 29 13:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 13:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3"
+May 29 13:18 : avahi: Service 'Music Player @ segfault42' successfully established.
+May 29 13:18 : client: [0] opened from 127.0.0.1:35572
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3': No such file or directory
+May 29 13:18 : player: played "Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3': No such file or directory
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3': No such file or directory
+May 29 13:18 : player: played "Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3': No such file or directory
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3': No such file or directory
+May 29 13:18 : player: played "Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3': No such file or directory
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3': No such file or directory
+May 29 13:18 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3': No such file or directory
+May 29 13:18 : player: played "Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3"
+May 29 13:18 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
+May 29 13:18 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3': No such file or directory
+May 29 13:18 : player: played "Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3"
+May 29 13:18 : client: [0] closed
+May 29 15:41 : client: [1] opened from 127.0.0.1:38134
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/03. Master Of Death.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/03. Master Of Death.mp3': No such file or directory
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/03. Master Of Death.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/07. The Witch Trials.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/07. The Witch Trials.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/07. The Witch Trials.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/08. Rise Of The Fallen.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/08. Rise Of The Fallen.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/08. Rise Of The Fallen.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/09. The Hand That Feeds You.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/09. The Hand That Feeds You.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/09. The Hand That Feeds You.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/10. The Nocturnal.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/10. The Nocturnal.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/10. The Nocturnal.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/11. Blood Wars.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/11. Blood Wars.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/11. Blood Wars.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/12. The Daughter Of Darkness.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/12. The Daughter Of Darkness.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/12. The Daughter Of Darkness.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3': No such file or directory
+May 29 15:42 : player: played "Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/07. The Witch Trials.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/07. The Witch Trials.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/07. The Witch Trials.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/08. Rise Of The Fallen.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/08. Rise Of The Fallen.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/08. Rise Of The Fallen.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/09. The Hand That Feeds You.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/09. The Hand That Feeds You.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/09. The Hand That Feeds You.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/10. The Nocturnal.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/10. The Nocturnal.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/10. The Nocturnal.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/11. Blood Wars.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/11. Blood Wars.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/11. Blood Wars.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/12. The Daughter Of Darkness.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/12. The Daughter Of Darkness.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/12. The Daughter Of Darkness.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/13. The Ashes Will Be Woken.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/14. The One Who Dwells Within.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3': No such file or directory
+May 29 15:42 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/15. The Witch's Curse.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3': No such file or directory
+May 29 15:42 : player: played "Stephen Marley feat. Damian Marley & Buju Banton - Jah Army (DJ Res-Q Video Edit).mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/01-jinjer-prologue-858354b4.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/02-jinjer-captain_clock-bb3cac75.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/03-jinjer-words_of_wisdom-76cf098d.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/04-jinjer-just_another-87e2c862.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/05-jinjer-i_speak_astronomy-b8814348.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/06-jinjer-sit_stay_roll_over-077f574b.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/07-jinjer-under_the_dome-d1947d6c.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3"
+May 29 15:42 : exception: Failed to decode /home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
+May 29 15:42 : exception: nested: Failed to open '/home/segfault42/Music/Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3': No such file or directory
+May 29 15:42 : player: played "Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3"
+May 29 15:42 : client: [1] closed
+May 29 15:53 : client: [2] opened from 127.0.0.1:38174
+May 29 15:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 15:53 : client: [2] closed
+May 29 15:53 : client: [3] opened from 127.0.0.1:38176
+May 29 15:53 : client: [3] closed
+May 29 20:14 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/02. Shades And Shadows.mp3"

@@ -93,3 +93,4 @@ HIST_STAMPS="mm/dd/yyyy"
 
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+source /home/segfault42/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
