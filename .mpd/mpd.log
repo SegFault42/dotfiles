@@ -2995,3 +2995,9 @@ May 29 15:53 : client: [2] closed
 May 29 15:53 : client: [3] opened from 127.0.0.1:38176
 May 29 15:53 : client: [3] closed
 May 29 20:14 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/02. Shades And Shadows.mp3"
+Jun 03 18:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 03 18:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 03 18:51 : avahi: Service 'Music Player @ segfault42' successfully established.
+Jun 03 18:51 : client: [0] opened from 127.0.0.1:37618
+Jun 03 18:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 03 18:52 : client: [0] closed
