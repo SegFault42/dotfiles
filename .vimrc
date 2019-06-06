@@ -33,6 +33,7 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'paretje/nvim-man'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'tpope/vim-endwise'
+Plugin 'chrisbra/Colorizer'
 
 "colorscheme
 Plugin 'mhartington/oceanic-next'
