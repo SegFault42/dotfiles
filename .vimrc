@@ -24,7 +24,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'tomtom/tlib_vim'
 Plugin 'Yggdroot/indentLine'
-"Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
@@ -122,4 +121,3 @@ noremap ~ <C-w>=
 
 :set backspace=indent,eol,start
 set runtimepath+=~/.vim-plugins/LanguageClient-neovim
-
