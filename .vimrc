@@ -33,6 +33,7 @@ Plugin 'paretje/nvim-man'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'tpope/vim-endwise'
 Plugin 'chrisbra/Colorizer'
+"Plugin 'vim-scripts/AutoComplPop'
 
 "colorscheme
 Plugin 'mhartington/oceanic-next'
@@ -121,3 +122,7 @@ noremap ~ <C-w>=
 
 :set backspace=indent,eol,start
 set runtimepath+=~/.vim-plugins/LanguageClient-neovim
+
+"For youcompleteme"
+let g:ycm_collect_identifiers_from_tags_files = 1
+let g:ycm_global_ycm_extra_conf = "/home/segfault42/.vim/bundle/.ycm_extra_conf.py"

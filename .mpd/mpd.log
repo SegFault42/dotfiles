@@ -3006,3 +3006,5 @@ Jun 07 14:03 : exception: RTIOThread could not get realtime scheduling, continui
 Jun 07 14:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jun 07 14:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jun 07 14:03 : avahi: Service 'Music Player @ segfault42' successfully established.
+Jun 10 08:07 : client: [0] opened from 127.0.0.1:50242
+Jun 10 08:07 : client: [0] closed
