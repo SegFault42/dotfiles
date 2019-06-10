@@ -4,7 +4,7 @@
 enable-ipc = true
 monitor = eDP1
 width = 100%
-height = 30
+height = 25
 dpi = 100
 
 background = #000000
@@ -46,7 +46,7 @@ underline-color = ${self.background}
 
 [module/backlight]
 type = internal/backlight
-format = <label>
+format =  <label>
 #format = <ramp> <bar>
 
 card =  intel_backlight
@@ -77,9 +77,9 @@ interval = 2
 type = internal/battery
 full-at = 98
 
-format-charging = <animation-charging>  <label-charging>
-format-discharging = <ramp-capacity>  <label-discharging>
-format-full = <ramp-capacity>  <label-full>
+format-charging = <animation-charging>  <label-charging> %
+format-discharging = <ramp-capacity>  <label-discharging> %
+format-full = <ramp-capacity>  <label-full> %
 
 label-charging = %percentage%
 label-discharging = %percentage%
@@ -109,13 +109,12 @@ animation-charging-framerate = 750
 
 [module/date]
 type = internal/date
-date =    %%{F#99}%Y-%m-%d%%{F-}  %%{F#fff}%H:%M:%S%%{F-}
-date-alt = %%{F#fff}%A, %d %B %Y  %%{F#fff}%H:%M%%{F#666}:%%{F#fba922}%S%%{F-}
+date =   %%{F#99}%Y-%m-%d%%{F-}     %%{F#fff}%H:%M:%S%%{F-}
 
 [module/memory]
 type = internal/memory
 format = <label>
-label = Mem [ %gb_used%/%gb_total% ]
+label =   [ %gb_used%/%gb_total% ]
 ;label-foreground = #0088CC
 
 [module/wireless-network]
@@ -125,7 +124,7 @@ interval = 1.0
 ping-interval = 10
 
 format-connected = <ramp-signal> <label-connected>
-label-connected = %local_ip%    %downspeed%    %upspeed%
+label-connected =  %local_ip%    %downspeed%    %upspeed%
 label-disconnected =    not connected
 label-disconnected-foreground = #66
 
@@ -171,8 +170,8 @@ interval = 25
 
 mount-0 = /
 
-label-mounted =  %mountpoint%: %percentage_used%%
-label-unmounted = %mountpoint% not mounted
+label-mounted =   %mountpoint%: %percentage_used%%
+label-unmounted =  %mountpoint% not mounted
 label-unmounted-foreground = #66
 
 
@@ -320,21 +319,6 @@ label-separator-foreground = #ffb52a
 
 [module/cpu]
 type = internal/cpu
-
-; Seconds to sleep between updates
-; Default: 1
 interval = 0.5
-
-; Available tags:
-;   <label> (default)
-;   <bar-load>
-;   <ramp-load>
-;   <ramp-coreload>
 format = <label>
-
-; Available tokens:
-;   %percentage% (default) - total cpu load averaged over all cores
-;   %percentage-sum% - Cumulative load on all cores
-;   %percentage-cores% - load percentage for each core
-;   %percentage-core[1-9]% - load percentage for specific core
-label = CPU %percentage%%
+label =  %percentage%%
