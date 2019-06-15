@@ -74,10 +74,10 @@ rofi.hlfg:                           #34405a
 rofi.hlbg:                           #34405a
 rofi.bc:                             #789ee1
 ! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
-rofi.color-normal: #353944,  #FFFFFF,  #353944,  #5294E2,  #FFFFFF
+rofi.color-normal: #000000,  #ffffff,  #000000,  #444444,  #FFFFFF
 
 !                  'background', 'border'
-rofi.color-window: #353944,      #404552
+rofi.color-window: #222222,      #404552
 rofi.bw:                             0
 rofi.location:                       0
 rofi.padding:                        5
