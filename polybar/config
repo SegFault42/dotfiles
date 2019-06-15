@@ -142,7 +142,7 @@ animation-packetloss-framerate = 500
 
 
 [module/volume]
-type = internal/alsa
+type = internal/amixer
 speaker_mixer = Speaker
 headphone_mixer = Headphone
 headphone_control_numid = 23

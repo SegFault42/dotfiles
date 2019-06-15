@@ -3008,3 +3008,5 @@ Jun 07 14:03 : exception: OutputThread could not get realtime scheduling, contin
 Jun 07 14:03 : avahi: Service 'Music Player @ segfault42' successfully established.
 Jun 10 08:07 : client: [0] opened from 127.0.0.1:50242
 Jun 10 08:07 : client: [0] closed
+Jun 15 07:27 : client: [1] opened from 127.0.0.1:38698
+Jun 15 07:27 : client: [1] closed
