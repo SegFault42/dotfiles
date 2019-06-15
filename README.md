@@ -40,9 +40,7 @@ To install, place the files in the Home folder.
 ## Clean
 ![rofi](https://user-images.githubusercontent.com/9384676/59549832-9bcdc980-8f63-11e9-8511-b72804a3abb4.png)
 ## Rofi
-![neofetch](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/gtop_neofetch_mpsyt.png)
-## mpsyt, gtop, neofetch
 ![firefox](https://user-images.githubusercontent.com/9384676/59549823-6aed9480-8f63-11e9-8b99-38033998df55.png)
-## mozilla firefox with Mozilla Labs: Prospector - OneLiner 3
+## tty-clock, ncmpcpp, htop
 ![lockscreen](https://user-images.githubusercontent.com/9384676/59549842-c750b400-8f63-11e9-8720-7b496e994c5d.png)
 ## Lockscreen
