@@ -1,4 +1,4 @@
-# Linux Mint [i3-gaps]
+# Manjaro [i3-gaps]
 
 [![HitCount](http://hits.dwyl.io/SegFault42/https://github.com/SegFault42/dotfiles.svg)](http://hits.dwyl.io/SegFault42/https://github.com/SegFault42/dotfiles)
 
@@ -18,8 +18,6 @@ To install, place the files in the Home folder.
 
 - Polybar
 
-- compton
-
 - zsh
 
 - oh-my-zsh
@@ -32,23 +30,19 @@ To install, place the files in the Home folder.
 
 - Ranger
 
-- Gtop
-
 - tty-clock
 
 - pywal
 
-- mpsyt
-
 ### This is how it looks like:
 
-![clean](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/clean.png)
+![clean](https://user-images.githubusercontent.com/9384676/59549816-4691b800-8f63-11e9-935b-059adefe5575.png)
 ## Clean
-![rofi](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/rofi.png)
+![rofi](https://user-images.githubusercontent.com/9384676/59549832-9bcdc980-8f63-11e9-8511-b72804a3abb4.png)
 ## Rofi
 ![neofetch](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/gtop_neofetch_mpsyt.png)
 ## mpsyt, gtop, neofetch
-![firefox](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/firefox.png)
+![firefox](https://user-images.githubusercontent.com/9384676/59549823-6aed9480-8f63-11e9-8b99-38033998df55.png)
 ## mozilla firefox with Mozilla Labs: Prospector - OneLiner 3
-![lockscreen](https://github.com/SegFault42/dotfiles/raw/master/Screenshots/lock.png)
+![lockscreen](https://user-images.githubusercontent.com/9384676/59549842-c750b400-8f63-11e9-8720-7b496e994c5d.png)
 ## Lockscreen

@@ -96,4 +96,3 @@ source /home/segfault42/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # pywal colorscheme
 wal -R
-feh --bg-scale ~/Pictures/black_white.jpeg
