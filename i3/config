@@ -14,7 +14,7 @@ exec unclutter
 exec_always --no-startup-id /home/segfault42/.config/polybar/launch.sh
 #exec --no-startup-id redshift
 exec --no-startup-id feh --bg-scale ~/Pictures/black_white.jpeg
-#exec_always compton --config ~/.config/i3/compton.conf
+exec_always compton --config ~/.config/i3/compton.conf
 
 exec --no-startup-id volumeicon
 
