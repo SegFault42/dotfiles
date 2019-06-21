@@ -1,9 +1,9 @@
 sw_volume: 98
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 6
-time: 172.171000
+state: play
+current: 28
+time: 4.097000
 random: 0
 repeat: 0
 single: 0
@@ -39,4 +39,15 @@ playlist_begin
 24:Jinjer_King_of_Everything_2016/08-jinjer-dip_a_sail-9fa944a0.mp3
 25:Jinjer_King_of_Everything_2016/09-jinjer-pisces-47a38009.mp3
 26:Jinjer_King_of_Everything_2016/10-jinjer-beggars_dance-7d2c2311.mp3
+27:Peter Gundry - 2018 - Goëtia/01 - They Came Wearing Masks.flac
+28:Peter Gundry - 2018 - Goëtia/02 - .Goëtia..flac
+29:Peter Gundry - 2018 - Goëtia/03 - The Serpents Tongue.flac
+30:Peter Gundry - 2018 - Goëtia/04 - Lilith.flac
+31:Peter Gundry - 2018 - Goëtia/05 - One Mans Grief.flac
+32:Peter Gundry - 2018 - Goëtia/06 - The Lost Lineage.flac
+33:Peter Gundry - 2018 - Goëtia/07 - The Seventh Seer.flac
+34:Peter Gundry - 2018 - Goëtia/08 - Dance of the Damned.flac
+35:Peter Gundry - 2018 - Goëtia/09 - Human Frailty.flac
+36:Peter Gundry - 2018 - Goëtia/10 - The Sacred Order.flac
+37:Peter Gundry - 2018 - Goëtia/11 - The Devil.flac
 playlist_end

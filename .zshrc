@@ -95,4 +95,4 @@ alias launch_fbterm='fbterm; export TERM="fbterm"; tmux'
 source /home/segfault42/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # pywal colorscheme
-wal -R
+wal -Re
