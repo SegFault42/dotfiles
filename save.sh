@@ -41,3 +41,6 @@ mkdir .mutt
 cp -fr ~/.mutt/muttrc ./.mutt
 cp -fr ~/.mutt/colors-gruvbox-shuber-extended.muttrc ./.mutt/colors-gruvbox-shuber-extended.muttrc
 cp -fr ~/.mutt/colors-gruvbox-shuber.muttrc ./.mutt/colors-gruvbox-shuber.muttrc
+
+/bin/rm -fr ./.config/alacritty
+cp -fr ~/.config/alacritty .
