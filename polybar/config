@@ -27,7 +27,7 @@ font-3 = Siji:pixelsize=11;1
 font-4 = FontAwesome:size=11;0
 
 modules-left = i3
-modules-right = power-menu cpu memory temperature filesystem volume wireless-network backlight battery date
+modules-right = power-menu cpu memory temperature filesystem volume backlight battery date
 
 wm-restack = i3
 

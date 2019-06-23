@@ -42,7 +42,7 @@ Plugin 'whatyouhide/vim-gotham'
 Plugin 'morhetz/gruvbox'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'jacoborus/tender.vim'
-Plugin 'vim-ruby/vim-ruby'
+Plugin 'vim-scripts/matrix.vim--Yang'
 
 "====================================Vim-Plugin=================================
 
@@ -126,3 +126,4 @@ set runtimepath+=~/.vim-plugins/LanguageClient-neovim
 "For youcompleteme"
 let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_global_ycm_extra_conf = "/home/segfault42/.vim/bundle/.ycm_extra_conf.py"
+highlight Normal ctermbg=NONE

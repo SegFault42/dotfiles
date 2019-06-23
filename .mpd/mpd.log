@@ -3088,3 +3088,23 @@ Jun 21 21:00 : avahi: Service 'Music Player @ segfault42' successfully establish
 Jun 21 21:00 : client: [0] opened from 127.0.0.1:53620
 Jun 21 21:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jun 21 21:07 : player: played "Peter Gundry - 2018 - Goëtia/01 - They Came Wearing Masks.flac"
+Jun 21 21:12 : player: played "Peter Gundry - 2018 - Goëtia/02 - .Goëtia..flac"
+Jun 21 21:16 : player: played "Peter Gundry - 2018 - Goëtia/03 - The Serpents Tongue.flac"
+Jun 21 21:21 : player: played "Peter Gundry - 2018 - Goëtia/04 - Lilith.flac"
+Jun 21 21:25 : player: played "Peter Gundry - 2018 - Goëtia/05 - One Mans Grief.flac"
+Jun 21 21:28 : player: played "Peter Gundry - 2018 - Goëtia/06 - The Lost Lineage.flac"
+Jun 22 13:23 : player: played "Peter Gundry - 2018 - Goëtia/07 - The Seventh Seer.flac"
+Jun 22 13:26 : player: played "Peter Gundry - 2018 - Goëtia/08 - Dance of the Damned.flac"
+Jun 22 13:29 : player: played "Peter Gundry - 2018 - Goëtia/09 - Human Frailty.flac"
+Jun 22 13:32 : player: played "Peter Gundry - 2018 - Goëtia/10 - The Sacred Order.flac"
+Jun 22 13:34 : player: played "Peter Gundry - 2018 - Goëtia/11 - The Devil.flac"
+Jun 22 15:59 : client: [0] closed
+Jun 23 09:02 : client: [1] opened from 127.0.0.1:35364
+Jun 23 09:08 : player: played "Peter Gundry - 2018 - Goëtia/01 - They Came Wearing Masks.flac"
+Jun 23 09:14 : player: played "Peter Gundry - 2018 - Goëtia/02 - .Goëtia..flac"
+Jun 23 09:18 : player: played "Peter Gundry - 2018 - Goëtia/03 - The Serpents Tongue.flac"
+Jun 23 09:22 : player: played "Peter Gundry - 2018 - Goëtia/04 - Lilith.flac"
+Jun 23 09:26 : player: played "Peter Gundry - 2018 - Goëtia/05 - One Mans Grief.flac"
+Jun 23 09:29 : player: played "Peter Gundry - 2018 - Goëtia/06 - The Lost Lineage.flac"
+Jun 23 09:34 : player: played "Peter Gundry - 2018 - Goëtia/07 - The Seventh Seer.flac"
+Jun 23 10:09 : client: [1] closed
