@@ -22,7 +22,7 @@ exec --no-startup-id volumeicon
 ###################  I 3  G A P S  N E X T   ##############################
 ###########################################################################
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
 gaps inner 10
 gaps outer 1
 #smart_gaps on
