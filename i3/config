@@ -348,6 +348,6 @@ exec_always killall xfce4-notifyd
 exec_always dunst
 
 #exec battery notifier
-exec_always /home/segfault42/.config/i3/scripts/i3_battery_alert.sh
+#exec_always /home/segfault42/.config/i3/scripts/i3_battery_alert.sh
 
 bindsym $mod+w sticky toggle

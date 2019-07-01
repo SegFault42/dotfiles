@@ -12,7 +12,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # GO ENV
-export PATH=$PATH:/usr/local/go/bin:/opt/devkitpro/pacman/bin
+export PATH=$PATH:/home/segfault42/go/bin:/opt/devkitpro/pacman/bin
 export GOPATH=$(go env GOPATH)
 
 # Nintendo switch dev env
@@ -95,4 +95,4 @@ alias launch_fbterm='fbterm; export TERM="fbterm"; tmux'
 source /home/segfault42/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # pywal colorscheme
-wal -Req
+#wal -Req
