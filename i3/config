@@ -262,6 +262,7 @@ for_window [class="Hexchat"] floating disable
 #start tray applications
 # this time over the path is f**up - check next clean install
 
+exec blueman-applet
 exec --no-startup-id nm-applet
 exec cinnamon-sound-applet
 
