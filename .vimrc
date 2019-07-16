@@ -33,6 +33,7 @@ Plugin 'paretje/nvim-man'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'tpope/vim-endwise'
 Plugin 'chrisbra/Colorizer'
+Plugin 'prettier/vim-prettier'
 "Plugin 'vim-scripts/AutoComplPop'
 
 "colorscheme
