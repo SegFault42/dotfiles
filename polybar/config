@@ -27,7 +27,7 @@ font-3 = Siji:pixelsize=11;1
 font-4 = FontAwesome:size=11;0
 
 modules-left = i3
-modules-right = power-menu cpu memory temperature filesystem volume backlight battery date
+modules-right = power-menu keyboard cpu memory temperature filesystem volume backlight battery date
 
 wm-restack = i3
 
@@ -66,6 +66,19 @@ bar-fill-foreground = #c9665e
 bar-empty = ─
 bar-empty-font = 3
 bar-empty-foreground = #44
+
+[module/keyboard]
+type = internal/xkeyboard
+
+; List of indicators to ignore
+blacklist-1 = scroll lock
+blacklist-0 = num lock
+
+format-prefix = "  "
+format-prefix-font = 1
+
+label-layout = %layout%
+
 
 [module/consumation]
 type = custom/script

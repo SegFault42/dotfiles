@@ -34,6 +34,7 @@ Plugin 'Shougo/deoplete.nvim'
 Plugin 'tpope/vim-endwise'
 Plugin 'chrisbra/Colorizer'
 Plugin 'prettier/vim-prettier'
+Plugin 'mhinz/vim-startify'
 "Plugin 'vim-scripts/AutoComplPop'
 
 "colorscheme
@@ -101,6 +102,11 @@ hi Type    cterm=italic
 highlight Comment cterm=italic
 
 "===========colorscheme
+if exists('+termguicolors')
+	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+	set termguicolors
+endif
 colorscheme gruvbox
 set background=dark    " Setting dark mode
 
