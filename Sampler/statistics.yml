@@ -1,0 +1,13 @@
+version: 1.0.1
+os: linux
+ww: 189
+wh: 53
+lc: 16
+ut: 25482
+cc:
+    asciiboxes: 1
+    barcharts: 1
+    gauges: 4
+    runcharts: 1
+    sparkLines: 2
+    textboxes: 4

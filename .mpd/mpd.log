@@ -3326,3 +3326,18 @@ Jul 20 12:45 : player: played "Peter Gundry - 2018 - Goëtia/05 - One Mans Grief
 Jul 20 12:48 : player: played "Peter Gundry - 2018 - Goëtia/06 - The Lost Lineage.flac"
 Jul 20 12:52 : player: played "Peter Gundry - 2018 - Goëtia/07 - The Seventh Seer.flac"
 Jul 20 13:54 : client: [0] closed
+Jul 24 11:48 : client: [1] opened from 127.0.0.1:56346
+Jul 24 15:40 : player: played "Ganja Smuggling.mp3"
+Jul 24 15:41 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/01. The Shadows Hymn.mp3"
+Jul 24 15:46 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/02. Shades And Shadows.mp3"
+Jul 24 15:51 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/03. Master Of Death.mp3"
+Jul 24 15:54 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/04. Tonight Ve Dance.mp3"
+Jul 24 15:58 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/05. I Invoke Cursed Winds.mp3"
+Jul 24 16:03 : player: played "Peter Gundry - The Unspoken Tales - 2017 (320 kbps)/06. The Essence.mp3"
+Jul 28 01:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 01:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 01:07 : avahi: Service 'Music Player @ segfault42' successfully established.
+Jul 28 01:07 : client: [0] opened from 127.0.0.1:60698
+Jul 28 01:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 14:31 : client: [0] closed
+Aug 03 00:20 : player: played "Peter Gundry - 2018 - Goëtia/03 - The Serpents Tongue.flac"

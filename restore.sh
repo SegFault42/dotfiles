@@ -46,3 +46,6 @@ cp -fr .mutt ~/
 
 /bin/rm -fr ~/.config/alacritty
 cp -fr alacrittyt ~/.config/
+
+/bin/rm -fr ~/.config/Sampler
+cp -fr Sampler ~/.config/

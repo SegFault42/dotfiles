@@ -355,5 +355,5 @@ exec_always dunst
 bindsym $mod+w sticky toggle
 
 # Shortcut to switch keyboard input lang
-bindsym $mod+control+1 exec "setxkbmap us"
-bindsym $mod+control+2 exec "setxkbmap ru"
+bindsym $mod+control+0 exec "setxkbmap us"
+bindsym $mod+control+9 exec "setxkbmap ru"

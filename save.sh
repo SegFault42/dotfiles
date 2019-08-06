@@ -44,3 +44,6 @@ cp -fr ~/.mutt/colors-gruvbox-shuber.muttrc ./.mutt/colors-gruvbox-shuber.muttrc
 
 /bin/rm -fr ./.config/alacritty
 cp -fr ~/.config/alacritty .
+
+/bin/rm -fr ./.config/Sampler
+cp -fr ~/.config/Sampler .
