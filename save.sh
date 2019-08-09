@@ -38,9 +38,7 @@ cp -fr ~/.config/dunst .
 
 /bin/rm -fr ./.mutt
 mkdir .mutt
-cp -fr ~/.mutt/muttrc ./.mutt
-cp -fr ~/.mutt/colors-gruvbox-shuber-extended.muttrc ./.mutt/colors-gruvbox-shuber-extended.muttrc
-cp -fr ~/.mutt/colors-gruvbox-shuber.muttrc ./.mutt/colors-gruvbox-shuber.muttrc
+cp -fr ~/.mutt/* ./.mutt
 
 /bin/rm -fr ./.config/alacritty
 cp -fr ~/.config/alacritty .
