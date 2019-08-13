@@ -1,9 +1,9 @@
 version: 1.0.1
 os: linux
-ww: 189
+ww: 93
 wh: 53
-lc: 16
-ut: 25482
+lc: 17
+ut: 48609
 cc:
     asciiboxes: 1
     barcharts: 1

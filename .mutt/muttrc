@@ -53,7 +53,7 @@ set tmpdir="~/.mutt/tmp"
 set pager_stop="yes"
 set smart_wrap="yes"
 #alternative_order text/plain
-#auto_view text/html
+auto_view text/html
 set reverse_name=yes
 set reverse_realname=yes
 

@@ -49,3 +49,6 @@ cp -fr alacrittyt ~/.config/
 
 /bin/rm -fr ~/.config/Sampler
 cp -fr Sampler ~/.config/
+
+/bin/rm -fr ./mimeapps.list
+cp -fr ./mimeapps.list ~/.config/
