@@ -109,6 +109,6 @@ asciiboxes:
   - title: UTC time
     position: [[45, 12], [35, 7]]
     rate-ms: 500
-    sample: env TZ=UTC date +%r
+    sample: env FR=UTC date +%r
     border: false
     font: 3d
