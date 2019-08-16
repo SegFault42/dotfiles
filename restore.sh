@@ -52,3 +52,6 @@ cp -fr Sampler ~/.config/
 
 /bin/rm -fr ./mimeapps.list
 cp -fr ./mimeapps.list ~/.config/
+
+/bin/rm -fr ./screenlayout
+cp -fr ./screenlayout ~/
