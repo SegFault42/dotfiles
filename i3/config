@@ -209,6 +209,7 @@ assign [class="signal"] 9
 assign [class="Whatsie"] 9
 assign [class="keepassxc"] 8
 assign [class="electrum"] 8
+assign [class="Deezer"] 8
 assign [class="Geary"] 7
 
 for_window [class="Firefox"] focus
