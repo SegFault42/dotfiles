@@ -12,7 +12,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # GO ENV
-export PATH=$PATH:/home/segfault42/go/bin:/opt/devkitpro/pacman/bin:$HOME/appImages
+export PATH=$PATH:/usr/local/go/bin:/home/segfault42/go/bin:/opt/devkitpro/pacman/bin:$HOME/appImages
 export GOPATH=$(go env GOPATH)
 
 # Nintendo switch dev env

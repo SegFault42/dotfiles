@@ -36,6 +36,7 @@ Plugin 'chrisbra/Colorizer'
 Plugin 'prettier/vim-prettier'
 Plugin 'mhinz/vim-startify'
 "Plugin 'vim-scripts/AutoComplPop'
+Plugin 'ternjs/tern_for_vim'
 
 "colorscheme
 Plugin 'mhartington/oceanic-next'
@@ -133,3 +134,9 @@ set runtimepath+=~/.vim-plugins/LanguageClient-neovim
 "For youcompleteme"
 let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_global_ycm_extra_conf = "/home/segfault42/.vim/bundle/.ycm_extra_conf.py"
+
+"Autocompletion JS"
+set omnifunc=syntaxcomplete#Complete
+
+" Golang
+let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
