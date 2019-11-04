@@ -203,7 +203,7 @@ bindsym button8 move right
 # Assign section
 assign [class="Wire"] 9
 assign [class="Keybase"] 9
-assign [class="discord"] 9
+assign [class="Ripcord"] 9
 assign [class="Slack"] 9
 assign [class="signal"] 9
 assign [class="Whatsie"] 9
@@ -258,6 +258,7 @@ for_window [class="Steam"] floating enable
 for_window [class="Ryujinx"] floating enable
 for_window [class="Arandr"] floating enable
 for_window [class="Nm-connection-editor"] floating enable
+for_window [class="Gnome-calculator"] floating enable
 
 for_window [class="Hexchat"] floating disable
 
