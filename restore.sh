@@ -44,14 +44,5 @@ cp -fr ./dunst ~/.config/
 /bin/rm -fr ~/.mutt
 cp -fr .mutt ~/
 
-/bin/rm -fr ~/.config/alacritty
-cp -fr alacrittyt ~/.config/
-
 /bin/rm -fr ~/.config/Sampler
 cp -fr Sampler ~/.config/
-
-/bin/rm -fr ./mimeapps.list
-cp -fr ./mimeapps.list ~/.config/
-
-/bin/rm -fr ./screenlayout
-cp -fr ./screenlayout ~/

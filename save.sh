@@ -40,14 +40,8 @@ cp -fr ~/.config/dunst .
 mkdir .mutt
 cp -fr ~/.mutt/* ./.mutt
 
-/bin/rm -fr ./.config/alacritty
-cp -fr ~/.config/alacritty .
-
 /bin/rm -fr ./.config/Sampler
 cp -fr ~/.config/Sampler .
 
 /bin/rm -fr ./mimeapps.list
 cp -fr ~/.config/mimeapps.list .
-
-/bin/rm -fr ./screenlayout
-cp -fr ~/.screenlayout .

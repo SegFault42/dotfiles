@@ -6,14 +6,14 @@ ZSH_THEME="amuse"
 plugins=(
   git
   zsh-autosuggestions
-  zsh-syntax-highlighting
+  #zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # GO ENV
-export PATH=$PATH:/usr/local/go/bin:/home/segfault42/go/bin:/opt/devkitpro/pacman/bin:$HOME/appImages
-export GOPATH=$(go env GOPATH)
+export PATH=$PATH:/usr/local/go/bin:/home/segfault42/go/bin:/opt/devkitpro/pacman/bin:$HOME/appImages:/home/segfault42/Documents/flutter/bin
+export GOPATH=$HOME/go
 
 # Nintendo switch dev env
 export DEVKITPRO=/opt/devkitpro
@@ -22,8 +22,6 @@ export DEVKITPPC=/opt/devkitpro/devkitPPC
 export DEVKITA64=/opt/devkitpro/devkitA64
 export LIBTRANSISTOR_HOME=/opt/libtransistor
 export XDG_CONFIG_HOME=/home/segfault42/.config
-
-export PAGER=most
 
 # Alias
 alias ls_rss="krill -s http://www.logic-sunrise.com/forums/rss/forums/1-news-fr/"
@@ -63,3 +61,4 @@ PERL_MM_OPT="INSTALL_BASE=/home/segfault42/perl5"; export PERL_MM_OPT;
 rmd () {
   pandoc $1 | lynx -stdin
 }
+source /home/segfault42/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
