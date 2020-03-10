@@ -17,7 +17,7 @@
     urgent_on_bell = true
     clickable_url = true
     #font = FuraMono Nerd Font 12
-    font = Hack Nerd Font 12
+    font = Hack Nerd Font 17
     scrollback_lines = 1000
     search_wrap = true
     #icon_name = terminal

@@ -11,10 +11,10 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/L9'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'vim-airline/vim-airline'
-"Plugin 'vim-airline/vim-airline-themes'
+Plugin 'rhysd/vim-clang-format'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mbbill/undotree'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -24,11 +24,20 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'tomtom/tlib_vim'
 Plugin 'Yggdroot/indentLine'
-Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'vim-scripts/OmniCppComplete'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'paretje/nvim-man'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'tpope/vim-endwise'
+Plugin 'chrisbra/Colorizer'
+Plugin 'prettier/vim-prettier'
+Plugin 'mhinz/vim-startify'
+"Plugin 'vim-scripts/AutoComplPop'
+Plugin 'ternjs/tern_for_vim'
+Plugin 'xavierd/clang_complete'
+
 "colorscheme
 Plugin 'mhartington/oceanic-next'
 Plugin 'sjl/badwolf'
@@ -36,12 +45,16 @@ Plugin 'whatyouhide/vim-gotham'
 Plugin 'morhetz/gruvbox'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'jacoborus/tender.vim'
+Plugin 'vim-scripts/matrix.vim--Yang'
 
 "====================================Vim-Plugin=================================
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 filetype plugin on
+
+" Load powerline fonts (Hack in my case)
+let g:airline_powerline_fonts = 1
 
 let g:Powerline_symbols = 'fancy'
 let g:NERDTreeDirArrowExpandable = '▸'
@@ -60,8 +73,7 @@ let g:hybrid_reduced_contrast = 1
 let g:hybrid_custom_term_colors = 1
 let g:airline#extensions#tabline#enabled = 1
 
-let g:ycm_global_ycm_extra_conf = "~/.ycm_extra_conf.py"
-let g:ycm_confirm_extra_conf = 0
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 
 " disable hide json double quote
 let g:indentLine_setConceal = 0
@@ -81,7 +93,21 @@ set cc=80
 set hlsearch
 set encoding=utf-8
 
+" Use italics in things like comments and properties<Paste>
+hi htmlArg gui=italic
+hi Comment gui=italic
+hi Type    gui=italic
+hi htmlArg cterm=italic
+hi Comment cterm=italic
+hi Type    cterm=italic
+highlight Comment cterm=italic
+
 "===========colorscheme
+if exists('+termguicolors')
+	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+	set termguicolors
+endif
 colorscheme gruvbox
 set background=dark    " Setting dark mode
 
@@ -102,18 +128,39 @@ noremap + :vertical resize +1<CR>
 noremap - :vertical resize -1<CR>
 noremap ~ <C-w>=
 
-" The Silver Searcher
-if executable('ag')
-  " Use ag over grep
-  set grepprg=ag\ --nogroup\ --nocolor
+:set backspace=indent,eol,start
+set runtimepath+=~/.vim-plugins/LanguageClient-neovim
 
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+"For youcompleteme"
+let g:ycm_collect_identifiers_from_tags_files = 1
+let g:ycm_global_ycm_extra_conf = "/home/segfault42/.vim/bundle/.ycm_extra_conf.py"
 
-  " ag is fast enough that CtrlP doesn't need to cache
-  let g:ctrlp_use_caching = 0
-endif
+"Autocompletion JS"
+set omnifunc=syntaxcomplete#Complete
 
-" bind K to grep word under cursor
-nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+" Golang
+let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 
+"==Clang Complete plugin=="
+let g:clang_use_library=1
+" if there's an error, allow us to see it
+let g:clang_complete_copen=1
+let g:clang_complete_macros=1
+let g:clang_complete_patterns=0
+" Limit memory use
+let g:clang_memory_percent=70
+" Remove -std=c++11 if you don't use C++ for everything like I do.
+let g:clang_user_options=' -std=c++11 || exit 0'
+" Set this to 0 if you don't want autoselect, 1 if you want autohighlight,
+" and 2 if you want autoselect. 0 will make you arrow down to select the first
+" option, 1 will select the first option for you, but won't insert it unless you
+" press enter. 2 will automatically insert what it thinks is right. 1 is the most
+" convenient IMO, and it defaults to 0.
+let g:clang_auto_select=1
+
+set conceallevel=2
+set concealcursor=vin
+let g:clang_snippets=1
+let g:clang_conceal_snippets=1
+" The single one that works with clang_complete
+let g:clang_snippets_engine='clang_complete'

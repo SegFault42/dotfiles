@@ -6,7 +6,7 @@ ZSH_THEME="amuse"
 plugins=(
   git
   zsh-autosuggestions
-  #zsh-syntax-highlighting
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -50,8 +50,6 @@ alias figaro_off="sh ~/.screenlayout/figaro_off.sh"
 export XDG_CONFIG_DIRS=$XDG_CONFIG_HOME
 export TERM=xterm-256color
 
-source /home/segfault42/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 PATH="/home/segfault42/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/segfault42/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/segfault42/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
@@ -61,4 +59,9 @@ PERL_MM_OPT="INSTALL_BASE=/home/segfault42/perl5"; export PERL_MM_OPT;
 rmd () {
   pandoc $1 | lynx -stdin
 }
-source /home/segfault42/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+rvm use 2.3.1 --default
