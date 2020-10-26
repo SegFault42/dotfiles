@@ -44,3 +44,9 @@ To install, place the files in the Home folder.
 ## tty-clock, ncmpcpp, htop
 ![lockscreen](https://user-images.githubusercontent.com/9384676/59549842-c750b400-8f63-11e9-8720-7b496e994c5d.png)
 ## Lockscreen
+
+### Dependencies :
+
+```bash
+$ yay ttf-nerd-fonts-hack-complete
+```
